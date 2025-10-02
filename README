@@ -1,0 +1,6 @@
+The make file will compile the code all you have to do is run:
+make
+then to run the code type
+./level_client "String of start node" int of depth
+ex.
+./level_client "Tom Hanks" 3
