@@ -1,0 +1,5926 @@
+rm -f level_client level_client.o
+g++ -std=c++17 -I/users/jshanah2/rapidjson/include -pthread   -c -o level_client.o level_client.cpp
+level_client.cpp:21: warning: "RAPIDJSON_PARSE_ERROR_NORETURN" redefined
+   21 | #define RAPIDJSON_PARSE_ERROR_NORETURN(code, offset) \
+      | 
+In file included from level_client.cpp:12:
+/users/jshanah2/rapidjson/include/rapidjson/reader.h:100: note: this is the location of the previous definition
+  100 | #define RAPIDJSON_PARSE_ERROR_NORETURN(parseErrorCode, offset) \
+      | 
+g++ level_client.o -o level_client -lcurl
+- Tom Hanks
+1
+- The Green Mile
+- Cast Away
+- Road to Perdition
+- Catch Me If You Can
+- Concert for George
+- The Ladykillers
+- The Terminal
+- The Polar Express
+- Elvis Has Left the Building
+- The Da Vinci Code
+- Charlie Wilson's War
+- The Pixar Story
+- The Great Buck Howard
+- Angels & Demons
+- Prohibition
+- Larry Crowne
+- Extremely Loud and Incredibly Close
+- Cloud Atlas
+- Captain Phillips
+- Saving Mr. Banks
+- Ithaca
+- Bridge of Spies
+- A Hologram for the King
+- Inferno
+- Sully
+- Defying the Nazis: The Sharps' War
+- California Typewriter
+- The Circle
+- The Post
+- Greyhound
+- A Beautiful Day in the Neighborhood
+- News of the World
+- Borat Subsequent Moviefilm
+- Finch
+- Elvis
+- Pinocchio
+- A Man Called Otto
+- Asteroid City
+- Here
+39
+- Bryan Cranston
+- Nia Vardalos
+- Julia Roberts
+- Dale Dye
+- George Takei
+- Maria Canals-Barrera
+- Pam Grier
+- Rita Wilson
+- Taraji P. Henson
+- Holmes Osborne
+- Wilmer Valderrama
+- Rami Malek
+- Cedric the Entertainer
+- Sarah Lévy
+- Jon Seda
+- Rob Riggle
+- Gugu Mbatha-Raw
+- Malcolm Barrett
+- Grace Gummer
+- Sy Richardson
+- Tina Huang
+- Roxana Ortega
+- Melanie Griffith
+- Sam Shepard
+- Hamish Linklater
+- Jack Quaid
+- Gabriel Basso
+- Alex Neustaedter
+- Meg Ryan
+- Giuseppe Battiston
+- Joseph Gordon-Levitt
+- Lorraine Bracco
+- Luke Evans
+- Keegan-Michael Key
+- Cynthia Erivo
+- Sheila Atim
+- Lewin Lloyd
+- Benjamin Evan Ainsworth
+- Kyanne Lamaya
+- Wendy Makkena
+- Chris Cooper
+- Matthew Rhys
+- Maddie Corman
+- Enrico Colantoni
+- Tammy Blanchard
+- Sakina Jaffrey
+- Maryann Plunkett
+- Susan Kelechi Watson
+- P. J. Byrne
+- Joseph Sikora
+- Ned Beatty
+- Om Puri
+- Rachel Nichols
+- Shaun Toub
+- Philip Seymour Hoffman
+- Brian Markinson
+- Emily Blunt
+- Shiri Appleby
+- Jud Tylor
+- Pavel Lychnikoff
+- Faran Tahir
+- John Slattery
+- Mozhan Marnò
+- Aharon Ipalé
+- Spencer Garrett
+- Amy Adams
+- Kurt Yaeger
+- Patrika Darbo
+- Christopher Denham
+- Anthony Azizi
+- Denis O'Hare
+- Erick Avari
+- Ken Stott
+- Navid Negahban
+- Peter Gerety
+- Nazanin Boniadi
+- Cyia Batten
+- Kevin Cooney
+- Jud Taylor
+- Mary Bonner Baker
+- Wynn Everett
+- Michael Spellman
+- Sammy Sheik
+- Tracy Phillips
+- William Sadler
+- Gary Sinise
+- Patricia Clarkson
+- Bonnie Hunt
+- David Morse
+- James Cromwell
+- Graham Greene
+- Harry Dean Stanton
+- Paula Malcomson
+- Jeffrey DeMunn
+- Eve Brent
+- Michael Clarke Duncan
+- Doug Hutchison
+- Scotty Leavenworth
+- Dabbs Greer
+- Bill McKinney
+- Brent Briscoe
+- Barry Pepper
+- Sam Rockwell
+- Michael Jeter
+- Ryan Hurst
+- Jeremy Suarez
+- Robert Baker
+- Aldis Hodge
+- Irma P. Hall
+- George Wallace
+- Jason Weaver
+- John McConnell
+- Freda Foh Shen
+- J. K. Simmons
+- Blake Clark
+- Greg Grunberg
+- Bruce Campbell
+- Marlon Wayans
+- Diane Delano
+- Stephen Root
+- Tzi Ma
+- Sandra Bullock
+- Max von Sydow
+- John Goodman
+- Viola Davis
+- James Gandolfini
+- Chris Hardwick
+- Jeffrey Wright
+- Thomas Horn
+- Jim Norton
+- Zoe Caldwell
+- Stephen McKinley Henderson
+- Stephen Henderson
+- Adrian Martinez
+- Madison Arnold
+- Catherine Curtin
+- Michael Kranz
+- Michael Schenk
+- Petra Marie Cammin
+- Peter McRobbie
+- Joe Forbrich
+- Victor Schefé
+- Mikhail Gorevoy
+- Eve Hewson
+- Ashlie Atkinson
+- Austin Stowell
+- Brian Hutchison
+- Stephen Kunken
+- DJ Lubel
+- Kai Meyer
+- Rafael Gareisen
+- Maik Rogge
+- Steven Boyer
+- Scott Shepherd
+- Rainer Reiners
+- Noah Schnapp
+- Will Rogers
+- Sebastian Koch
+- Burghart Klaußner
+- Joachim Paul Assböck
+- Amy Ryan
+- Alan Alda
+- Mark Rylance
+- Michael Gaston
+- Joshua Harto
+- Domenick Lombardozzi
+- Billy Magnussen
+- Jesse Plemons
+- Dakin Matthews
+- Nadja Bobyleva
+- Tim Morten Uhlenbrock
+- Frederic Heidorn
+- Nina Gummich
+- Greta Galisch de Palma
+- Ivan Shvedoff
+- James Lorinz
+- Merab Ninidze
+- Mark Zak
+- Max Kidd
+- Maximilian Mauff
+- Mike Birbiglia
+- Juanita Jennings
+- Peter Lawson Jones
+- Mariana Treviño
+- Rachel Keller
+- Manuel Garcia-Rulfo
+- Cameron Britton
+- John Higgins
+- Elizabeth Marvel
+- Mare Winningham
+- Ray McKinnon
+- Bill Camp
+- Chuk Iwuji
+- Neil Sandilands
+- Gabriel Ebert
+- Thomas Francis Murphy
+- Truman Hanks
+- Helena Zengel
+- Tom Astor
+- Michael Angelo Covino
+- Winsome Brown
+- Fred Hechinger
+- Jeffrey Ware
+- Chris Bylsma
+- Brenden Wedner
+- Walt Disney
+- Steve Jobs
+- George Lucas
+- Edwin Catmull
+- Billy Crystal
+- Tim Allen
+- John Lasseter
+- Brad Bird
+- Stacy Keach
+- Randy Newman
+- Andrew Stanton
+- Pete Docter
+- Roy E. Disney
+- Lee Unkrich
+- Ollie Johnston
+- Joe Ranft
+- Michael Eisner
+- Leonard Maltin
+- John Musker
+- Ron Clements
+- Frank Thomas
+- Don Hahn
+- Dennis Muren
+- Darla K. Anderson
+- Alvy Ray Smith
+- Peter Schneider
+- Helen Hunt
+- Nick Searcy
+- Chris Noth
+- Nan Martin
+- Jenifer Lewis
+- Elden Henson
+- Christopher Kriesa
+- Geoffrey Blake
+- Timothy Stack
+- Valerie Wildman
+- Jay Acovone
+- David Allen Brooks
+- Paul Sanchez
+- Mel Rodriguez
+- Catherine Zeta-Jones
+- Benny Golson
+- Zoe Saldaña
+- Stanley Tucci
+- Diego Luna
+- Chi McBride
+- Michael Nouri
+- Jude Ciccolella
+- Barry Shabaka Henley
+- Mark Ivanir
+- Corey Reynolds
+- Guillermo Díaz
+- Kumar Pallana
+- Eddie Jones
+- Kenneth Choi
+- Scott Adsit
+- Cas Anvar
+- Lewis Rainer
+- Atheer Adel
+- Tracey Fairaway
+- David Menkin
+- Jay Abdo
+- Tom Skerritt
+- Ben Whishaw
+- Alex Black
+- Sidse Babett Knudsen
+- Sarita Choudhury
+- Rolf Saxon
+- Michael Baral
+- Michael Ihnow
+- Dhafer L'Abidine
+- Jeff Burrell
+- Shaun Lawton
+- Robert Fyfe
+- Alistair Petrie
+- Amanda Walker
+- Zhu Zhu
+- Mya-Lecia Naylor
+- Nikko Weidemann
+- Victor Solé
+- Rose Wakesho
+- David Mitchell
+- Hugo Weaving
+- Götz Otto
+- Martin Wuttke
+- Marie Rönnebeck
+- Susan Sarandon
+- Hugh Grant
+- Jim Broadbent
+- Zhou Xun
+- Bae Doona
+- Keith David
+- Jim Sturgess
+- James D'Arcy
+- Halle Berry
+- Daniele Rizzo
+- David Gyasi
+- Heike Hanold-Lynch
+- Katy Karrenbauer
+- Laura Vietzen
+- Thomas Kügel
+- Paul Kynman
+- Sam Marra
+- Ara Hollyday
+- Kenneth Bate
+- Sandy Hamilton
+- Roberto Moreno De Matias
+- Francisco Serrano
+- Jacinto Domingo Torija
+- Alvaro Olivas Marques
+- Yann Tremblay
+- Sébastien Fouassier
+- Carlos Arimón
+- Antonio Graziano
+- Nuria Gigorro
+- Raquel Jiménez Martínez
+- Jorge Francisco Mena Garcia
+- Ana Isabel Comendador Martínez
+- Carlos Saez
+- Karine Niederman
+- Jesús Olivas Santos
+- José Luis Figueroa
+- Pascale Coppola
+- Milagros Ahijon
+- Paula Domingo
+- Crístian García Jiménez
+- Robert Tattam
+- Eusebio Mateo Díaz
+- Valérie Sadoun
+- Erica Dorn
+- Julia Kruger
+- Anisse Elias
+- Rebecca Cornford
+- Avery Looser
+- Guy Trevellyan
+- Honor Northridge
+- Eliel Ford
+- Caris Yeoman
+- Yann Pozzoli
+- Sonia Gascón
+- Marian Huélamo
+- Timothy Cordukes
+- Marta Rubio
+- Susana Hornos
+- Alicia San Lorenzo
+- Palmira Ferrer
+- Jose Antonio Turiégano Carrasco
+- Pilar Ramírez Escalona
+- Virginia Romano Álvarez
+- Milagros Reyeros Ruiz
+- Jonatan Buitrago Díaz
+- Ricardo Mohedas Tiñana
+- Carlos Arroyo
+- Ismael González Carrasco
+- Celedonio Guijarro Cano
+- Juan Abad Molina
+- Jose Segovia Ortiz
+- Enrique Ruiz Granado
+- Juan Carlos Iglesias Gómez
+- Óscar Mínguez García Patrón
+- David Navarro Romero
+- Javier Gigorro De Las Peñas
+- Alejandro García Aparicio
+- Diego Maldonado Davila
+- David Rodríguez Moreno
+- Mario Perez Lomas
+- Alejandro Urbina Escalona
+- David Verdejo Escribano
+- Adrián Corpa Fernández
+- Jesús Jiménez Caler
+- Francisco Corrales Rubio
+- Sergio Martinez Martinez
+- Félix Israel Pinilla De La Guia
+- Mario Turiégano Delgado
+- Pedro Padilla Perez
+- Matthew Frasure
+- Chris Faris
+- Erika Godwin
+- Sara Greisberg
+- Manuela Martinez Zafra
+- Scarlett Johansson
+- Adrien Brody
+- Jeff Goldblum
+- Edward Norton
+- Willem Dafoe
+- Matt Dillon
+- Tilda Swinton
+- Steve Carell
+- Hope Davis
+- Aimee Mullins
+- Liev Schreiber
+- Jason Schwartzman
+- Rupert Friend
+- Jarvis Cocker
+- Fisher Stevens
+- Bob Balaban
+- Seu Jorge
+- Margot Robbie
+- Jean-Yves Lozac'h
+- Rodolphe Pauly
+- Deanna Dunagan
+- Iván López
+- Steve Park
+- Jay Lau
+- Marcos Pereiro
+- Tony Revolori
+- Stéphane Bak
+- Carmen Méndez
+- Junior Harris
+- Guillermo Garcia
+- Ainhoa Aldanondo
+- Tom Hudson
+- Ethan Josh Lee
+- Damien Bonnard
+- Randall Poster
+- Hong Chau
+- Sophia Lillis
+- Francisco Javier Gomez
+- Maya Hawke
+- Christian Bate
+- Jake Ryan
+- Pablo Amorós
+- Elvira Arce
+- Nicolas Avinée
+- Matilda Clarke
+- Patricia Colin
+- Dominique Fouassier
+- Mohamed Belhadjine
+- Elena Uriz
+- Grace Edwards
+- Henry Rhoades
+- Aristou Meehan
+- Ella Faris
+- Gracie Faris
+- Willan Faris
+- Vandi Clark
+- Pedro Placer
+- Aaron Ziobrowski
+- Celia Bermejo
+- Zoe Bernard
+- Brayden Frasure
+- Preston Mota
+- Kyleigh Fuller
+- Jack Eyman
+- Sebastian Stephens
+- Willa Skye
+- Annalise Mackulin
+- Calhoun Metcalf
+- Pere Mallén
+- Ramón Ródenas
+- Katy Heffernan Smith
+- Colin Hanks
+- Tom Arnold
+- David Blaine
+- Regis Philbin
+- Casey Wilson
+- Griffin Dunne
+- Conan O'Brien
+- Steve Zahn
+- Michael Winslow
+- Patrick Fischler
+- Wallace Langham
+- Kelly Ripa
+- David Anthony Higgins
+- Don Most
+- Nate Hartley
+- Ricky Jay
+- Kimberly Scott
+- Sandy Martin
+- Mary Hart
+- Norm O'Neill
+- Stacey Travis
+- Max Williams
+- Paul Simon
+- John Malkovich
+- Adam Scott
+- Jon Stewart
+- Jay Leno
+- Martha Stewart
+- Debra Monk
+- Gary Coleman
+- Matthew Gray Gubler
+- Mike Pence
+- Sacha Baron Cohen
+- Rudy Giuliani
+- Maria Bakalova
+- Judith Dim Evans
+- Marianne Sägebrecht
+- Anatole Taubman
+- Antoine Monot Jr.
+- Sven Schelker
+- Matthias Hungerbühler
+- Emma Watson
+- Bill Paxton
+- Karen Gillan
+- Patton Oswalt
+- Ellen Wong
+- Smith Cho
+- Glenne Headly
+- Nick Valensi
+- John Boyega
+- Jimmy Wong
+- Poorna Jagannathan
+- Nate Corddry
+- Ellar Coltrane
+- Daniel Craig
+- Paul Newman
+- Jude Law
+- Liam Aiken
+- Jennifer Jason Leigh
+- Anthony LaPaglia
+- Ciarán Hinds
+- Tyler Hoechlin
+- Harry Groener
+- Dylan Baker
+- Kevin Chamberlin
+- Christian Stolte
+- James Greene
+- JoBe Cerny
+- Kerry Rossall
+- David Darlow
+- Nona Gaye
+- Charles Fleischer
+- Eddie Deezen
+- Peter Scolari
+- Leslie Zemeckis
+- Steven Tyler
+- Josh Hutcherson
+- Catherine Keener
+- Corey Johnson
+- Chris Mulkey
+- Max Martini
+- David Warshofsky
+- Angus MacInnes
+- John Magaro
+- Louis Mahoney
+- Maria Dizzia
+- Omar Berdouni
+- Riann Steele
+- Yul Vazquez
+- Barkhad Abdi
+- Faysal Ahmed
+- Michael Chernus
+- Vincenzo Nicoli
+- Mark Holden
+- Jeff Fahey
+- Mirjam Novak
+- Felicity Jones
+- Ben Foster
+- Omar Sy
+- Irrfan Khan
+- Vincent Riotta
+- Attila Árpa
+- Lili Gesler
+- Xavier Laurent
+- Fausto Maria Sciarappa
+- Francesca Inaudi
+- Vincenzo Tanassi
+- Mehmet Ergen
+- Paul Ritter
+- Philip Arditti
+- Gábor Nagypál
+- Fortunato Cerlino
+- Ana Ularu
+- Björn Freiberg
+- Bálint Adorjáni
+- Peter Linka
+- Simone Mariani
+- Maria Grazia Mandruzzato
+- Sardar Tagirovsky
+- Ida Darvish
+- Alessandro Fabrizi
+- Mario Acampa
+- Robin Mugnaini
+- Lubna Azabal
+- Robin Wright
+- Thomas Morris
+- Norbert Weisser
+- Armin Mueller-Stahl
+- Ewan McGregor
+- Stellan Skarsgård
+- Ayelet Zurer
+- Alfred Molina
+- Cosimo Fusco
+- Nikolaj Lie Kaas
+- Thure Lindhardt
+- Pierfrancesco Favino
+- Ben Bela Böhm
+- Elya Baskin
+- Steven Franken
+- Kristof Konrad
+- Rance Howard
+- Gino Conforti
+- Anna Katarina
+- Emanuele Secci
+- Victor Alfieri
+- Slim Khezri
+- Jimmy Clabots
+- Vincent De Paul
+- August Wittgenstein
+- Curt Lowens
+- Carmen Argenziano
+- Caleb Landry Jones
+- Meryl Streep
+- Neal Huff
+- Alison Brie
+- Sarah Paulson
+- Stark Sands
+- Bruce Greenwood
+- Bradley Whitford
+- David Cross
+- Michael Stuhlbarg
+- Deirdre Lovejoy
+- Jennifer Dundas
+- Cotter Smith
+- Bob Odenkirk
+- Tracy Letts
+- David Aaron Baker
+- Dan Bucatinsky
+- Philip Casnoff
+- Kenneth Tigar
+- Will Denton
+- David Costabile
+- Carolyn McCormick
+- Pat Healy
+- James Riordan
+- Jessie Mueller
+- Kelly AuCoin
+- Richard Holmes
+- Susan Blackwell
+- Zach Woods
+- Annika Boras
+- Carrie Coon
+- Armand Schultz
+- Michael Cyril Creighton
+- Gary Wilmes
+- Justin Swain
+- John Rue
+- Brent Langdon
+- Christopher Innvar
+- Tom Bair
+- Kim Basinger
+- John Corbett
+- Sean Astin
+- Denise Richards
+- Billy Ray Cyrus
+- Angie Dickinson
+- Annie Potts
+- Pat Morita
+- Phill Lewis
+- David Leisure
+- Richard Kind
+- Wayne Newton
+- Kevin Levrone
+- Mike Starr
+- Joel Zwick
+- Madison McReynolds
+- Philip Charles MacKenzie
+- Megan Hollingshead
+- Gil McKinney
+- Jocelyn Towne
+- Jenny Gabrielle
+- William Sterchi
+- Ivan Brutsche
+- Arron Shiver
+- David House
+- Vic Browder
+- J.D. Garfield
+- Albert Fry, Jr.
+- Marya Beauvais
+- Catherine Haun
+- Robyn Reede
+- Sean Connery
+- Leonardo DiCaprio
+- Nathalie Baye
+- Frank Abagnale
+- Amy Acker
+- Jennifer Garner
+- Martin Sheen
+- Christopher Walken
+- Ellen Pompeo
+- Elizabeth Banks
+- Honor Blackman
+- Sarah Lancaster
+- Jessica Collins
+- Jaime Ray Newman
+- James Brolin
+- Kitty Carlisle
+- Lilyan Chauvin
+- James Morrison
+- Beverly Lynne
+- Jasmine Jessica Anthony
+- Brian Howe
+- Q708059
+- Jeremy Howard
+- Jesse Heiman
+- Gerald R. Molen
+- Jimmie F. Skaggs
+- John Finn
+- Kaitlin Doubleday
+- Robert Curtis Brown
+- Alex Hyde-White
+- Kam Heskin
+- Guy Thauvette
+- Joe Garagiola Sr.
+- Roger Léger
+- Steve Eastin
+- Nancy Lenehan
+- Alfred Dennis
+- Brian Goodman
+- Candice Azzara
+- Margaret Travolta
+- Robert Symonds
+- Thomas Kopache
+- Dave Hager
+- Malachi Throne
+- Nick Zano
+- Stephen Dunham
+- Frank John Hughes
+- Emma Thompson
+- Colin Farrell
+- Rachel Griffiths
+- Paul Giamatti
+- Kathy Baker
+- Ruth Wilson
+- B. J. Novak
+- Melanie Paxson
+- Ronan Vibert
+- Victoria Summer
+- Demetrius Grosse
+- Kristopher Kyer
+- Mia Serafino
+- Annie Rose Buckley
+- Chris Bauer
+- Aaron Eckhart
+- David Letterman
+- Laura Linney
+- Katie Couric
+- Autumn Reeser
+- Valerie Mahaffey
+- Anna Gunn
+- Michael Rapaport
+- Sam Huntington
+- Molly Hagan
+- Ann Cusack
+- Mike O'Malley
+- Jerry Ferrara
+- Holt McCallany
+- Max Adler
+- Jamey Sheridan
+- Jeffrey Nordling
+- Jeff Kober
+- Robert Pralgo
+- Gary Weeks
+- Wayne Bastrup
+- Jeremy Luke
+- Christopher Curry
+- Molly Bernard
+- Shane P. Allen
+- Blake Jones
+- Patch Darragh
+- Pascal Yen-Pfister
+- Blythe Danner
+- Josh Lucas
+- Jeremy Irons
+- Samuel L. Jackson
+- Amy Madigan
+- Frances Sternhagen
+- Sam Waterston
+- John Lithgow
+- Adam Arkin
+- Oliver Platt
+- Peter Coyote
+- Campbell Scott
+- Philip Bosco
+- Nicholas Bell
+- Terepai Richmond
+- Olivia DeJonge
+- Dacre Montgomery
+- Kate Mulvany
+- Christopher Sommers
+- Josh McConville
+- Natasha Bassett
+- Kelvin Harrison Jr.
+- Mark Leonard Winter
+- Yola
+- Alton Mason
+- Helen Thomson
+- Christian McCarty
+- Chaydon Jay
+- Patrick Sheare
+- Adam Dunn
+- Alex Radu
+- Mike Bingaman
+- David Gannon
+- Tony Nixon
+- Gareth Davies
+- Shonka Dukureh
+- David Wenham
+- Xavier Samuel
+- Richard Roxburgh
+- Austin Butler
+- Kodi Smit-McPhee
+- Gary Clark Jr.
+- Luke Bracey
+- Leon Ford
+- Thomas Kretschmann
+- Elisabeth Shue
+- Stephen Graham
+- Grayson Russell
+- Dominic Keating
+- Ian James Corlett
+- Dave Davis
+- Michael Benz
+- Tom Brittney
+- Devin Druid
+- Josh Wiggins
+- Karl Glusman
+- Chet Hanks
+- Rob Morgan
+- Maximilian Osinski
+- Matt Helm
+- Tonio Descanvelle
+- Jean Reno
+- Jürgen Prochnow
+- Ian McKellen
+- Paul Bettany
+- Jean-Yves Berteloot
+- Étienne Chicot
+- Audrey Tautou
+- Jean-Pierre Marielle
+- Hugh Mitchell
+- Seth Gabel
+- Marie-Françoise Audollent
+- Denis Podalydès
+- Agathe Natanson
+- David Saracino
+- Xavier de Guillebon
+- Francesco Carnelutti
+- David Bark-Jones
+- Paul McCartney
+- Eric Clapton
+- Olivia Harrison
+848
+- Blowback
+- Deterrence
+- Spiders
+- Welcome to Marwen
+- From Zero to I Love You
+- Out of Time
+- Old School
+- Seraphim Falls
+- Special
+- Save Me
+- Towelhead
+- Leatherheads
+- Indiana Jones and the Kingdom of the Crystal Skull
+- Hick
+- G.I. Joe: Retaliation
+- Devil's Knot
+- Virtually Heroes
+- Texas Rising
+- Doula
+- Jurassic World
+- Terror Tract
+- Illusion
+- Seeing Other People
+- Little Miss Sunshine
+- Intellectual Property
+- Love Ranch
+- The Lincoln Lawyer
+- Detachment
+- Contagion
+- Drive
+- Argo
+- John Carter
+- Total Recall
+- Rock of Ages
+- Red Tails
+- Cold Comes the Night
+- Godzilla
+- Trumbo
+- Get a Job
+- In Dubious Battle
+- The Infiltrator
+- Why Him?
+- Wakefield
+- Power Rangers
+- The Disaster Artist
+- Last Flag Flying
+- The Upside
+- El Camino: A Breaking Bad Movie
+- The One and Only Ivan
+- Jerry and Marge Go Large
+- Argylle
+- The Girl Next Door
+- Art Thief Musical!
+- Our Very Own
+- Americanese
+- Palo Alto
+- Lost Boys: The Tribe
+- The Big Bang
+- Smokin' Aces 2: Assassins' Ball
+- So Undercover
+- Kill 'Em All
+- Valley of Bones
+- A Bramble House Christmas
+- The Legend of La Llorona
+- Be Cool
+- Epic
+- Gone Girl
+- Izzy Gets the F*ck Across Town
+- Avengers: Infinity War
+- Widows
+- Kin
+- The Nest
+- Ghostbusters: Afterlife
+- Boston Strangler
+- His Three Daughters
+- Ghostbusters: Frozen Empire
+- Lake George
+- Edmond
+- American Dreamz
+- Red Sands
+- A Good Day to Die Hard
+- The East
+- Straight Outta Compton
+- Jack Reacher: Never Go Back
+- Hidden Figures
+- What Men Want
+- Clemency
+- The Invisible Man
+- One Night in Miami...
+- Black Adam
+- Parallel
+- Mercy Streets
+- Icebreaker
+- Fear Runs Silent
+- Lone Rider
+- When Eagles Strike
+- The Hollow
+- El Padrino
+- Man with the Screaming Brain
+- Come Early Morning
+- W.
+- Chicago Overcoat
+- Cellmates
+- The Bourne Legacy
+- Nebraska
+- Sin City: A Dame to Kill For
+- If I Stay
+- Truth
+- Cell
+- Gold
+- Gotti
+- My Big Fat Greek Wedding
+- Connie and Carla
+- I Hate Valentine's Day
+- My Life in Ruins
+- For a Good Time, Call...
+- Dealin' with Idiots
+- Helicopter Mom
+- My Big Fat Greek Wedding 2
+- The Curse of Bridge Hollow
+- Ivy + Bean: The Ghost That Had to Go
+- Ivy + Bean
+- My Big Fat Greek Wedding 3
+- Seabiscuit
+- A Previous Engagement
+- Jack and Jill
+- No Pay, Nudity
+- French Exit
+- Kicking & Screaming
+- Zathura: A Space Adventure
+- Little Manhattan
+- RV
+- Bridge to Terabithia
+- Firehouse Dog
+- Journey to the Center of the Earth
+- Fragments
+- Cirque du Freak: The Vampire's Assistant
+- The Kids Are All Right
+- Detention
+- The Hunger Games
+- Journey 2: The Mysterious Island
+- The Hunger Games: Catching Fire
+- Red Dawn
+- The Forger
+- The Hunger Games: Mockingjay – Part 1
+- Paradise Lost
+- The Hunger Games: Mockingjay – Part 2
+- Tragedy Girls
+- Burn
+- Across the River and Into the Trees
+- Five Nights at Freddy's
+- The Beekeeper
+- Vanilla Sky
+- The Happening
+- Burn After Reading
+- Whatever Works
+- Cold Souls
+- Salt
+- Crown Heights
+- Bad Company
+- Collateral
+- Bad Lieutenant: Port of Call New Orleans
+- My Son, My Son, What Have Ye Done?
+- Hurricane Season
+- Jayne Mansfield's Car
+- Changing the Game
+- New Life
+- Who Is Harry Nilsson (And Why Is Everybody Talkin' About Him)?
+- Joe Cocker: Mad Dog with Soul
+- Erin Brockovich
+- Sven Nykvist: Light Keeps Me Company
+- Ocean's Eleven
+- Pretty Woman
+- America's Sweethearts
+- The Mexican
+- Confessions of a Dangerous Mind
+- Grand Champion
+- Full Frontal
+- Mona Lisa Smile
+- Closer
+- Ocean's Twelve
+- Charlotte's Web
+- Fireflies in the Garden
+- Duplicity
+- Valentine's Day
+- Eat Pray Love
+- Love, Wedding, Marriage
+- Mirror Mirror
+- August: Osage County
+- The Secret in Their Eyes
+- Mother's Day
+- Money Monster
+- Wonder
+- Ben Is Back
+- Ticket to Paradise
+- Leave the World Behind
+- Lost Souls
+- Without Evidence
+- Nobody's Baby
+- Red State
+- Sassy Pants
+- Lennon or McCartney
+- Being John Malkovich
+- Simpatico
+- Lovely & Amazing
+- Adaptation
+- Death to Smoochy
+- S1m0ne
+- The Interpreter
+- Capote
+- The 40-Year-Old Virgin
+- The Ballad of Jack and Rose
+- Friends with Money
+- Into the Wild
+- An American Crime
+- What Just Happened
+- Synecdoche, New York
+- Hamlet 2
+- Genova
+- Where the Wild Things Are
+- The Soloist
+- Cyrus
+- Please Give
+- Trust
+- The Oranges
+- Peace, Love & Misunderstanding
+- A Late Quartet
+- Begin Again
+- Jackass Presents: Bad Grandpa
+- Enough Said
+- War Story
+- Elephant Song
+- Accidental Love
+- We Don't Belong Here
+- Unless
+- Get Out
+- Little Pink House
+- Sicario: Day of the Soldado
+- Nostalgia
+- The Adam Project
+- Joker: Folie à Deux
+- Spotlight
+- Coin Heist
+- The Feeling That the Time for Doing Something Has Passed
+- Little Nicky
+- 3 Strikes
+- The Wash
+- Mr. Deeds
+- Funny People
+- Think Like a Man Too
+- Just Getting Started
+- Hubie Halloween
+- Rules of Engagement
+- Spy Game
+- The Great Raid
+- Music Within
+- Sniper Special Ops
+- The Caine Mutiny Court-Martial
+- The 6th Day
+- Small Time Crooks
+- Chain of Fools
+- Men of Honor
+- Next Friday
+- King of the Jungle
+- Lucky Numbers
+- Bamboozled
+- Dr. Dolittle 2
+- 29 Palms
+- Paper Soldiers
+- Comic Book Villains
+- Triggermen
+- Death of a Dynasty
+- This Girl's Life
+- A Good Night to Die
+- Hitch
+- Live Free or Die
+- Grilled
+- Assassination of a High School President
+- Big Fan
+- A Day in the Life
+- Beats, Rhymes & Life: The Travels of A Tribe Called Quest
+- Inside Out
+- The Baytown Outlaws
+- Kiss of the Damned
+- The Heat
+- Little Boy
+- Chuck
+- Harrison's Flowers
+- Black Hawk Down
+- Last Run
+- Endgame
+- Out for a Kill
+- Hellboy
+- A Sound of Thunder
+- 7 Seconds
+- Déjà Vu
+- United 93
+- The Contract
+- The Bourne Ultimatum
+- The All Together
+- The Caller
+- The Fourth Kind
+- Thick as Thieves
+- Universal Soldier: Regeneration
+- Kick-Ass
+- Pimp
+- X-Men: First Class
+- Day of the Falcon
+- How I Live Now
+- Ex Machina
+- Kingsman: The Secret Service
+- Survivor
+- Jackie
+- The Current War
+- The Titan
+- A Private War
+- The Coldest Game
+- Radioactive
+- Morbius
+- All the Old Knives
+- Kandahar
+- Drumline
+- ATL
+- Love for Sale
+- Jada
+- Lottery Ticket
+- Dysfunctional Friends
+- A Spark Story
+- You Don't Mess with the Zohan
+- Ninja Cheerleaders
+- The Red Canvas
+- The Pool Boys
+- I Know That Voice
+- The Missing Scarf
+- Eat with Me
+- Entourage
+- Tab Hunter Confidential
+- For the Love of Spock
+- Woman in Motion
+- Paws of Fury: The Legend of Hank
+- Slow Burn
+- Radio
+- Manhood
+- Mysterious Skin
+- North Country
+- Dirty
+- Unknown
+- Dreamland
+- The Curiosity of Chance
+- D-War
+- Cloverfield
+- The Perfect Game
+- The Levenger Tapes
+- Rehab
+- Bad Actress
+- Any Day Now
+- The Purge
+- Sanitarium
+- Whiplash
+- Last Weekend
+- Message from the King
+- Mad Families
+- On the Basis of Sex
+- How to Deter a Robber
+- Not Another Teen Movie
+- Rolling Kansas
+- Sleepover
+- Raising Genius
+- Freshman Orientation
+- River's End
+- Superman Returns
+- Fanboys
+- Dylan Dog: Dead of Night
+- Tug
+- Veronica Mars
+- Three Night Stand
+- The Throwaways
+- Finding Sofia
+- Seven Stages to Achieve Eternal Bliss
+- O Brother, Where Art Thou?
+- Monster's Ball
+- The Badge
+- Blood Feast 2: All U Can Eat
+- Love Liza
+- Mr. 3000
+- Because of Winn-Dixie
+- The Departed
+- The Last Time
+- Glory Road
+- The Reaping
+- Alabama Moon
+- Jonah Hex
+- The Mechanic
+- Seeking Justice
+- Abraham Lincoln: Vampire Hunter
+- Django Unchained
+- Killing Them Softly
+- Stolen
+- 12 Years a Slave
+- The Duel
+- Waking Sleeping Beauty
+- The Master of Disguise
+- Imagining Argentina
+- God's Not Dead 2
+- Redbelt
+- Colombiana
+- Pacific Rim
+- Sabotage
+- Fifty Shades of Grey
+- Spectral
+- 13 Hours: The Secret Soldiers of Benghazi
+- Fifty Shades Freed
+- The Tender Bar
+- The Channel
+- Playing Mona Lisa
+- Air Bud: Seventh Inning Fetch
+- The Lucky Ones
+- Just Peck
+- Inside
+- Not Safe for Work
+- Ask Me Anything
+- The Last Light
+- We Are Your Friends
+- Navy Seals vs. Zombies
+- ism
+- All My Life
+- Dude, Where's My Car?
+- Planet of the Apes
+- Coastlines
+- A Mighty Wind
+- Red Doors
+- Star Trek
+- Snow Day
+- Wilder
+- No Tomorrow
+- Ghosts of Mars
+- Love the Hard Way
+- Bones
+- 3 A.M.
+- The Feast of All Saints
+- The Adventures of Pluto Nash
+- BaadAsssss Cinema
+- A Decade Under the Influence
+- Back in the Day
+- Just Wright
+- Corman's World: Exploits of a Hollywood Rebel
+- The Man with the Iron Fists
+- Bad Grandmas
+- Poms
+- Pet Sematary: Bloodlines
+- Human Nature
+- Welcome to Collinwood
+- The Best Thief in the World
+- Running Scared
+- There Will Be Blood
+- Taken
+- Public Enemies
+- Unstoppable
+- Fair Game
+- The Future
+- Little Birds
+- Lincoln
+- The Master
+- Small Apartments
+- Now You See Me
+- The Two Faces of January
+- Taken 3
+- Stockholm, Pennsylvania
+- Now You See Me 2
+- Beatriz at Dinner
+- Body Cam
+- Blonde
+- Stigmata
+- What Planet Are You From?
+- Accepted
+- The Informant!
+- Nightcrawler
+- The Gift
+- Beautiful Joe
+- The Cider House Rules
+- For Love of the Game
+- Autumn in New York
+- Spider-Man
+- Spider-Man 2
+- Hidalgo
+- Thank You for Smoking
+- Harsh Times
+- First Snow
+- The Astronaut Farmer
+- Juno
+- Rendition
+- Spider-Man 3
+- Postal
+- Up in the Air
+- Post Grad
+- Aliens in the Attic
+- Extract
+- I Love You, Man
+- Jennifer's Body
+- New in Town
+- The Vicious Kind
+- True Grit
+- A Beginner's Guide to Endings
+- Cats & Dogs: The Revenge of Kitty Galore
+- An Invisible Sign
+- Crazy on the Outside
+- The Good Doctor
+- Young Adult
+- The Music Never Stopped
+- Contraband
+- The Words
+- Jobs
+- Dark Skies
+- Labor Day
+- 3 Geezers!
+- Men, Women & Children
+- The Rewrite
+- Barefoot
+- The Boxcar Children
+- Break Point
+- Terminator Genisys
+- The Meddler
+- The Accountant
+- All Nighter
+- La La Land
+- Patriots Day
+- Justice League
+- The Snowman
+- Father Figures
+- The Bachelors
+- I'm Not Here
+- The Black Ghiandola
+- The Front Runner
+- A Boy Called Sailboat
+- Spider-Man: Far From Home
+- 21 Bridges
+- 3 Days with Dad
+- Palm Springs
+- The Tomorrow War
+- Spider-Man: No Way Home
+- Zack Snyder's Justice League
+- Being the Ricardos
+- National Champions
+- Chip 'n Dale: Rescue Rangers
+- Spider-Man: No Way Home - The More Fun Stuff Version
+- Little Brother
+- One Day as a Lion
+- The Union
+- Red One
+- You Can't Run Forever
+- Juror #2
+- Saturday Night
+- The Story of Us
+- The Glass House
+- Perfume
+- Auto Focus
+- Raise Your Voice
+- The Chumscrubber
+- Beautiful Ohio
+- Mamma Mia!
+- It's Complicated
+- Old Dogs
+- The Art of Getting By
+- Jewtopia
+- Brother Nature
+- Gloria Bell
+- Kimi
+- The French Dispatch
+- Enigma
+- Amen.
+- The Jacket
+- The Black Dahlia
+- Flight of Fury
+- Rogue One: A Star Wars Story
+- 28 Days
+- Pushing Tin
+- The Perfect Man
+- On Broadway
+- Meet Dave
+- Cedar Rapids
+- R.I.P.D.
+- A Good Marriage
+- Concussion
+- Bread and Roses
+- Intrepid
+- Joe Dirt
+- Corky Romano
+- Intolerable Cruelty
+- 50 First Dates
+- I'm Reed Fish
+- Car Babes
+- I Now Pronounce You Chuck and Larry
+- The Benchwarmers
+- Strange Wilderness
+- Get Smart
+- Bedtime Stories
+- Grown Ups
+- That's My Boy
+- Highland Park
+- The Ridiculous 6
+- Monkeybone
+- The Adventures of Rocky and Bullwinkle
+- Baby Boy
+- Hair Show
+- Hustle & Flow
+- Four Brothers
+- Smokin' Aces
+- Something New
+- Talk to Me
+- The Curious Case of Benjamin Button
+- The Family That Preys
+- Not Easily Broken
+- I Can Do Bad All By Myself
+- The Karate Kid
+- Once Fallen
+- Date Night
+- Peep World
+- From the Rough
+- Kevin Hart: Laugh at My Pain
+- Think like a Man
+- No Good Deed
+- Top Five
+- Term Life
+- Proud Mary
+- Acrimony
+- The Best of Enemies
+- The Color Purple
+- My Soul to Take
+- Liberal Arts
+- Not Fade Away
+- Deep Powder
+- Unbroken
+- Carol
+- The Big Short
+- The Finest Hours
+- Don't Worry Baby
+- War Machine
+- Overlord
+- First Cow
+- The Many Saints of Newark
+- Lansky
+- Call Jane
+- Showing Up
+- LaRoy, Texas
+- Past Lives
+- September 5
+- Brooklyn Rules
+- Gardener of Eden
+- Where God Left His Shoes
+- Eagle Eye
+- Teenage Paparazzo
+- Setup
+- Vietnam in HD
+- Seven Days in Utopia
+- Battleship
+- Last Vegas
+- Lone Survivor
+- Empire State
+- Flight 7500
+- Hollow Man
+- Austin Powers in Goldmember
+- Malibu's Most Wanted
+- Mission: Impossible III
+- Group Sex
+- Super 8
+- Big Ass Spider!
+- Star Wars: Episode VII – The Force Awakens
+- Underdog Kids
+- Tales of Halloween
+- Star Trek Beyond
+- A Star Is Born
+- Max Reload and the Nether Blasters
+- The Fabelmans
+- Sketches of Frank Gehry
+- Bring It On
+- Donnie Darko
+- Domestic Disturbance
+- The Deep End
+- Living in Missouri
+- The Quiet American
+- Windtalkers
+- Waking Up in Reno
+- Life Without Dick
+- Cheaper by the Dozen
+- Anchorman: The Legend of Ron Burgundy
+- Dreamer
+- Confessions of an Action Star
+- Air Buddies
+- Southland Tales
+- Meet Bill
+- The Box
+- Unthinkable
+- Fun Size
+- Rules Don't Apply
+- Bless the Child
+- I Dreamed of Africa
+- 8 Mile
+- People I Know
+- Cellular
+- The Door in the Floor
+- The Sentinel
+- Even Money
+- While She Was Out
+- The Burning Plain
+- The Informers
+- Charlie St. Cloud
+- Black November
+- Grudge Match
+- Third Person
+- I Am Here
+- The Nice Guys
+- Shooting Dogs
+- Three Kings
+- Below
+- Against the Ropes
+- Alpha Dog
+- Rise: Blood Hunter
+- Vantage Point
+- A Perfect Getaway
+- The Losers
+- Toxic
+- Bullet to the Head
+- Gangster Squad
+- Crush
+- Blackhat
+- Run All Night
+- The Perfect Guy
+- Monster Trucks
+- Shot Caller
+- Greenland
+- Wrath of Man
+- Nightmare Alley
+- The Ice Road
+- The Iron Claw
+- Double Jeopardy
+- The Majestic
+- Bubba Ho-tep
+- Serving Sara
+- Timequest
+- Comic Book: The Movie
+- Sky High
+- The Woods
+- My Name Is Bruce
+- Tar
+- Evil Dead
+- Oz the Great and Powerful
+- The Escort
+- To Hell and Back: The Kane Hodder Story
+- Black Friday!
+- Doctor Strange in the Multiverse of Madness
+- Drew: The Man Behind the Poster
+- Summer Catch
+- Party Monster
+- Fast Food Nation
+- The Darwin Awards
+- Unaccompanied Minors
+- El Muerto
+- The Condor
+- Columbus Day
+- Days of Wrath
+- The Dry Land
+- From Prada to Nada
+- School Dance
+- The Girl Is in Trouble
+- The Adderall Diaries
+- Murder Mystery 2
+- A Sudden Case of Christmas
+- Dinner Rush
+- Serendipity
+- My Dinner with Jimi
+- Raising Helen
+- Hunt for Justice: the Louise Arbour Story
+- Bigger Than the Sky
+- The Messengers
+- Street Kings
+- Sex and the City 2
+- Ramona and Beezus
+- The Lookalike
+- The Boy Next Door
+- My Dead Boyfriend
+- All Saints
+- To All the Boys I've Loved Before
+- God's Not Dead: A Light in Darkness
+- Gully
+- To All the Boys: Always and Forever
+- The Other Woman
+- Martha Marcy May Marlene
+- Margin Call
+- Keep the Lights On
+- Lola Versus
+- True Story
+- While We're Young
+- 3 Generations
+- Christine
+- 37
+- Going in Style
+- Humor Me
+- Piercing
+- William
+- Funny Pages
+- We Strangers
+- My Old Ass
+- Christmas Eve in Miller's Point
+- Detention of the Dead
+- Love and Honor
+- 23 Blast
+- Believe Me
+- Saugatuck Cures
+- The Trial of the Chicago 7
+- Scary Movie
+- Requiem for a Dream
+- Dungeons & Dragons
+- Scary Movie 2
+- Tupac: Resurrection
+- Scary Movie 3
+- White Chicks
+- Little Man
+- Norbit
+- Dance Flick
+- G.I. Joe: The Rise of Cobra
+- Marmaduke
+- A Haunted House
+- A Haunted House 2
+- Fifty Shades of Black
+- Naked
+- Sextuplets
+- On the Rocks
+- Respect
+- Night at the Museum
+- Night at the Museum: Battle of the Smithsonian
+- The Twilight Saga: Breaking Dawn – Part 1
+- The Twilight Saga: Breaking Dawn – Part 2
+- Oldboy
+- Ain't Them Bodies Saints
+- Short Term 12
+- Need for Speed
+- Night at the Museum: Secret of the Tomb
+- Da Sweet Blood of Jesus
+- Papillon
+- Bohemian Rhapsody
+- Dolittle
+- No Time to Die
+- The Little Things
+- Amsterdam
+- Oppenheimer
+- The Last Producer
+- Dish Dogs
+- The Lord of the Rings: The Fellowship of the Ring
+- The Lord of the Rings: The Two Towers
+- The Lord of the Rings: The Return of the King
+- Slipstream
+- Smile
+- Marilyn Hotchkiss' Ballroom Dancing and Charm School
+- Click
+- Borderland
+- The Final Season
+- Forever Strong
+- Alvin and the Chipmunks: The Squeakquel
+- Stay Cool
+- The Goonies
+- Demoted
+- Dorothy and the Witches of Oz
+- Cabin Fever: Patient Zero
+- Moms' Night Out
+- The Surface
+- Boys of Abu Ghraib
+- Woodlawn
+- The Do-Over
+- Unleashed
+- Adverse
+- Charming the Hearts of Men
+- Holiday Twist
+- Hard Miles
+- Cash Out
+- The Shift
+- Extraordinary Rendition
+- Life as a House
+- Desert Saints
+- Syriana
+- Nothing but the Truth
+- Handsome Harry
+- Reunion
+- Battle of the Sexes
+- Lizzie
+- Jeepers Creepers 2
+- Death to the Supermodels
+- The Wicker Man
+- Big Momma's House
+- All Jokes Aside
+- Ride
+- The Original Kings of Comedy
+- Kingdom Come
+- Barbershop
+- Johnson Family Vacation
+- Lemony Snicket's A Series of Unfortunate Events
+- Barbershop 2: Back in Business
+- Man of the House
+- The Honeymooners
+- Code Name: The Cleaner
+- Cadillac Records
+- Welcome Home Roscoe Jenkins
+- All's Faire in Love
+- Grassroots
+- Wild Card
+- Barbershop: The Next Cut
+- First Reformed
+- The Opening Act
+- Son of the South
+- Outlaw Posse
+- Valentine
+- Good Advice
+- You Stupid Man
+- Empire
+- Undercover Brother
+- The Third Wheel
+- Love Actually
+- Whore
+- Blonde and Blonder
+- Jolene
+- Deep in the Valley
+- Finding Bliss
+- Cougars, Inc.
+- Madea's Witness Protection
+- Blue Lagoon: The Awakening
+- Freeloaders
+- A Life Lived
+- American Satan
+- Altitude
+- Adventures of Dally & Spanky
+- Alpha Code
+- Money Plane
+- 360
+- Sket
+- Ant-Man and the Wasp
+- Flicka
+- Home of the Brave
+- Surfer, Dude
+- Love Hurts
+- Tron: Legacy
+- Bicentennial Man
+- White Oleander
+- The Country Bears
+- Grind
+- Jersey Girl
+- Surviving Christmas
+- DodgeBall: A True Underdog Story
+- Wake Up, Ron Burgundy: The Lost Movie
+- Just Friends
+- Idiocracy
+- The Path to 9/11
+- Have Dreams, Will Travel
+- No Country for Old Men
+- Drillbit Taylor
+- Over Her Dead Body
+- Mad Money
+- Imagine That
+- The Men Who Stare at Goats
+- Dr. Dolittle: Million Dollar Mutts
+- Everything Must Go
+- The Conspirator
+- J. Edgar
+- The Company You Keep
+- Big Miracle
+- The Lone Ranger
+- Sweetwater
+- Hello, My Name Is Doris
+- Mike and Dave Need Wedding Dates
+- Life of the Party
+- The Ballad of Buster Scruggs
+- Bombshell
+- Uncle Frank
+- Home
+- Queenpins
+- To Leslie
+- Paint
+- Lousy Carter
+- Radical Jack
+- Mulholland Drive
+- Wish You Were Dead
+- Hannah Montana and Miley Cyrus: Best of Both Worlds Concert
+- Hannah Montana: The Movie
+- The Spy Next Door
+- Like A Country Song
+- American Reject
+- Drowning Mona
+- Bad Boys II they become more rebellious
+- War of the Worlds
+- The F Word
+- The Ex
+- American Gangster
+- Anamorph
+- Che Part 1: The Argentine
+- The Missing Person
+- Little Fockers
+- Lies in Plain Sight
+- Beware the Gonzo
+- Amigo
+- Blood Ties
+- Runner, Runner
+- Kill the Messenger
+- The Cobbler
+- Time Out of Mind
+- Glass Chin
+- Anesthesia
+- The Phenom
+- Gringo
+- Books of Blood
+- Enough
+- A Man Apart
+- The Guilt Trip
+- Leave No Trace
+- Akeelah and the Bee
+- Rush Hour 3
+- Battle in Seattle
+- Baby
+- Management
+- The Sensei
+- Formosa Betrayed
+- The Campaign
+- Million Dollar Arm
+- Diablo
+- Arrival
+- The Farewell
+- Mulan
+- Tigertail
+- Five Blind Dates
+- Price of Glory
+- Double Bang
+- Undisputed
+- Duets
+- Pay It Forward
+- Big Bad Love
+- Eye in the Sky
+- Grimsby
+- Good Time
+- Blade Runner 2049
+- The Pirates of Somalia
+- Extortion
+- The Extraordinary Journey of the Fakir
+- Agent Game
+- The Blind Side
+- The Joneses
+- Upside
+- Furious 7
+- Ride Along 2
+- The Boss
+- The Yellow Birds
+- Fist Fight
+- The Leisure Seeker
+- Avengers: Endgame
+- Gun Shy
+- Miss Congeniality
+- Welcome to Hollywood
+- Lisa Picard is Famous
+- Murder by Numbers
+- Two Weeks Notice
+- Divine Secrets of the Ya-Ya Sisterhood
+- Crash
+- Miss Congeniality 2: Armed and Fabulous
+- Loverboy
+- Infamous
+- The Lake House
+- Premonition
+- No Subtitles Necessary: Laszlo & Vilmos
+- All About Steve
+- The Proposal
+- Gravity
+- Our Brand Is Crisis
+- Ocean's 8
+- Bird Box
+- The Unforgivable
+- Bullet Train
+- The Lost City
+- Talladega Nights: The Ballad of Ricky Bobby
+- Step Brothers
+- The Hangover
+- The Goods: Live Hard, Sell Hard
+- The Other Guys
+- Killers
+- Furry Vengeance
+- Going the Distance
+- High Road
+- 21 Jump Street
+- Nature Calls
+- The Internship
+- 22 Jump Street
+- Let's Be Cops
+- Dumb and Dumber To
+- Hello I Must Be Going
+- Hell and Back
+- Absolutely Anything
+- Dead Rising: Watchtower
+- Henchmen
+- Middle School: The Worst Years of My Life
+- How to Be a Latin Lover
+- Midnight Sun
+- 12 Strong
+- Night School
+- The War with Grandpa
+- Strays
+- Ghostbusters
+- The Broken Hearts Club
+- Disney's The Kid
+- Elena Undone
+- The Spectacular Now
+- Ride Along
+- Self/less
+- Project Almanac
+- Annabelle Hooper and the Ghosts of Nantucket
+- The Fate of the Furious
+- Spider-Man: Homecoming
+- Rampage
+- Five Feet Apart
+- Snow Falling on Cedars
+- Intacto
+- Druids
+- Sleepless
+- Minority Report
+- Heidi
+- The Inquiry
+- Emotional Arithmetic
+- Religulous
+- Solomon Kane
+- The Wolfman
+- Shutter Island
+- Robin Hood
+- Branded
+- Palme
+- Liv & Ingmar
+- Kursk
+- Echoes of the Past
+- Straightheads
+- Odd Thomas
+- Belle
+- Beyond the Lights
+- Jupiter Ascending
+- The Whole Truth
+- Free State of Jones
+- Miss Sloane
+- Beauty and the Beast
+- A Wrinkle in Time
+- The Cloverfield Paradox
+- Irreplaceable You
+- Motherless Brooklyn
+- Misbehaviour
+- Lift
+- Brother
+- The Center of the World
+- Shadow Fury
+- The Biggest Fan
+- High Roller: The Stu Ungar Story
+- The Last Shot
+- Down and Derby
+- Spymate
+- Only the Brave
+- Royal Kill
+- The Messenger
+- The Rebound
+- Love and Other Drugs
+- Men in Black 3
+- Aloha
+- Mutual Friends
+- The Family Fang
+- Mistress America
+- The Dinner
+- The Meyerowitz Stories
+- The Kindergarten Teacher
+- Werewolves Within
+- Eyes in the Dark
+- Love and Mercy
+- Bringing Out the Dead
+- Coyote Ugly
+- The Flintstones in Viva Rock Vegas
+- My First Mister
+- One Night at McCool's
+- Storytelling
+- Dirty Deeds
+- Masked and Anonymous
+- Beyond the Sea
+- Evan Almighty
+- Death Sentence
+- Drunkboat
+- Speed Racer
+- Gigantic
+- In the Electric Mist
+- Confessions of a Shopaholic
+- Pope Joan
+- The Artist
+- Flight
+- Trouble with the Curve
+- The Hangover Part III
+- Inside Llewyn Davis
+- Monuments Men
+- Transformers: Age of Extinction
+- The Gambler
+- Love the Coopers
+- Drunk Stoned Brilliant Dead
+- 10 Cloverfield Lane
+- Bunyan and Babe
+- Atomic Blonde
+- Kong: Skull Island
+- Once Upon a Time in Venice
+- Captive State
+- Please Don't Destroy: The Treasure of Foggy Mountain
+- Swimfan
+- The Forgotten
+- The Hurt Locker
+- My Best Friend's Girl
+- Dear White People
+- Addicted to Fresno
+- The Comeback Trail
+- $pent
+- I Spy
+- Pretty Ugly People
+- Beverly Hills Chihuahua 2
+- Wish I Was Here
+- Bathory
+- Artemis Fowl
+- Don Jon
+- The Smile Man
+- Broken Horses
+- Jersey Boys
+- The Irishman
+- Traffic
+- Kate & Leopold
+- Solaris
+- Far from Heaven
+- Get Rich or Die Tryin'
+- World Trade Center
+- The Architect
+- Disturbia
+- Nights in Rodanthe
+- Doubt
+- State of Play
+- Law Abiding Citizen
+- Madea Goes to Jail
+- Knight and Day
+- It's Kind of a Funny Story
+- The Help
+- Won't Back Down
+- Beautiful Creatures
+- Ender's Game
+- Prisoners
+- The Disappearance of Eleanor Rigby
+- Get on Up
+- Lila & Eve
+- Suicide Squad
+- Custody
+- Fences
+- Ma Rainey's Black Bottom
+- The Suicide Squad
+- The Woman King
+- The Hunger Games: The Ballad of Songbirds and Snakes
+- The Homesman
+- Learning to Drive
+- Jenny's Wedding
+- Meet My Valentine
+- Gun: Fatal Betrayal
+- The Man Who Wasn't There
+- The Last Castle
+- Final Destination 2
+- Romance & Cigarettes
+- Stories of Lost Souls
+- All the King's Men
+- Lonely Hearts
+- Stories USA
+- In the Loop
+- The Taking of Pelham 123
+- Welcome to the Rileys
+- Mint Julep
+- Violet & Daisy
+- Down the Shore
+- Zero Dark Thirty
+- The Incredible Burt Wonderstone
+- The Drop
+- What Women Want
+- Dr. T & the Women
+- The Curse of the Jade Scorpion
+- A Good Woman
+- Bobby
+- Then She Found Me
+- Every Day
+- Soul Surfer
+- The Sessions
+- Decoding Annie Parker
+- I Love You, Daddy
+- The Miracle Season
+- I See You
+- Extreme Honor
+- Searchers 2.0
+- Our Family Wedding
+- Quicksand
+- The Station Agent
+- Bitter Jester
+- Bewitched
+- The Producers
+- The Big Empty
+- For Your Consideration
+- I Want Someone to Eat Cheese With
+- The Grand
+- Big Stan
+- The Visitor
+- National Lampoon's Bag Boy
+- Dr. Dolittle: Tail to the Chief
+- The Understudy
+- A Serious Man
+- Santa Buddies
+- Ingenious
+- Hereafter
+- The Search for Santa Paws
+- Fancypants
+- Santa Paws 2: The Santa Pups
+- Divorce Invitation
+- The Angriest Man in Brooklyn
+- Obvious Child
+- The Stand-In
+- Rifkin's Festival
+- Tick, Tick... Boom!
+- Beau Is Afraid
+- The Out-Laws
+- The Newcomers
+- Cold Heart
+- Fallen Angels
+- Blue Demon
+- Day of Redemption
+- Crimson Force
+- The Hunt for Eagle One: Crash Point
+- Planet Terror
+- Fist of the Warrior
+- Messages
+- Machete
+- Terror Trap
+- Lake Effects
+- Eldorado
+- Guns, Girls and Gambling
+- Easy Rider: The Ride Back
+- 100 Degrees Below Zero
+- Too Late
+- Alita: Battle Angel
+- The Commando
+- The Long Night
+- Black Warrant
+- Hypnotic
+- Horizon: An American Saga – Chapter 1
+- Switch Up
+- The Intern
+- Otherhood
+- Hit Man
+- House of 1000 Corpses
+- Terminator 3: Rise of the Machines
+- The Life Coach
+- Halloween II
+- Tigerland
+- Runaway Jury
+- Head of State
+- The Assassination of Richard Nixon
+- The Dead Girl
+- The Comebacks
+- Timber Falls
+- The Ugly Truth
+- The Last Song
+- Moneyball
+- Gone
+- Three Billboards Outside Ebbing, Missouri
+- The Shape of Water
+- The Old Way
+- Reagan
+- La Mission
+- Maximum Ride
+- Who's Your Daddy?
+- Discontinuance
+- Unbreakable Bond
+- Hickok
+- The Playground
+- Shaft
+- Hamlet
+- Crime and Punishment in Suburbia
+- Ali
+- Ride with the Devil
+- Boycott
+- D-Tox
+- The Manchurian Candidate
+- Broken Flowers
+- Casino Royale
+- Lady in the Water
+- The Invasion
+- Chicago 10
+- Quantum of Solace
+- Source Code
+- The Ides of March
+- Broken City
+- Only Lovers Left Alive
+- A Single Shot
+- The Inevitable Defeat of Mister & Pete
+- Hold the Dark
+- Game Night
+- The Goldfinch
+- The Laundromat
+- All Day & A Night
+- The Batman
+- Rustin
+- American Fiction
+- Double Whammy
+- A Texas Funeral
+- Sex and the City
+- My One and Only
+- 3,2,1... Frankie Go Boom
+- Lovelace
+- Skum Rocks!
+- White Girl
+- Brideshead Revisited
+- Flashbacks of a Fool
+- Chéri
+- The Tempest
+- Cemetery Junction
+- Soulboy
+- Like Crazy
+- Hysteria
+- Chalet Girl
+- Albatross
+- Cheerful Weather for the Wedding
+- The Invisible Woman
+- Breathe In
+- The Amazing Spider-Man 2
+- The Theory of Everything
+- A Monster Calls
+- Collide
+- The Aeronauts
+- The Midnight Sky
+- The Last Letter from Your Lover
+- The Brutalist
+- Cecil B. Demented
+- Tart
+- Stuart Little 2
+- Searching for Debra Winger
+- Tempo
+- Shade
+- The Night We Called It a Day
+- Yellow
+- Dark Tourist
+- Autómata
+- Day Out of Days
+- The High Note
+- Big Eden
+- Shallow Hal
+- Summer of Sam
+- Knockaround Guys
+- Tempted
+- The Next Big Thing
+- Mickey
+- The Ice Harvest
+- Hot Tamale
+- Black Dynamite
+- Cash
+- New York Street Games
+- Kill the Irishman
+- The Wannabe
+- Bad Santa 2
+- Get Over It
+- Phone Booth
+- Big Trouble
+- 11:14
+- The Punisher
+- The Heart Is Deceitful Above All Things
+- Hostage
+- X-Men: The Last Stand
+- 30 Days of Night
+- 3:10 to Yuma
+- Birds of America
+- Pandorum
+- Rampart
+- Kill Your Darlings
+- The Program
+- Warcraft
+- Hell or High Water
+- Hostiles
+- Isoken
+- Galveston
+- The Survivor
+- Medieval
+- The Contractor
+- Hustle
+- Emancipation
+- Finestkind
+- Sharp Corner
+- Cam
+- Harry Potter and the Chamber of Secrets
+- Oyster Farmer
+- Driving Lessons
+- Zack and Miri Make a Porno
+- The Boy in the Striped Pajamas
+- Courting Condi
+- Water for Elephants
+- True Bromance
+- Jimmy's Hall
+- Special Correspondents
+- The Boy
+- Mary Poppins Returns
+- All the Pretty Horses
+- Swordfish
+- The Pledge
+- Blind Horizon
+- The Notebook
+- Don't Come Knocking
+- Stealth
+- Bandidas
+- The Return
+- Walker Payne
+- The Assassination of Jesse James by the Coward Robert Ford
+- The Accidental Husband
+- Felon
+- Brothers
+- Inhale
+- Blackthorn
+- Safe House
+- Darling Companion
+- Mud
+- Out of the Furnace
+- Savannah
+- Harry Dean Stanton: Partly Fiction
+- Cold in July
+- Midnight Special
+- The Brothers
+- Juwanna Mann
+- Nora's Hair Salon
+- Dirty Laundry
+- Madea's Family Reunion
+- Meet the Browns
+- Baggage Claim
+- The Wedding Ringer
+- Christmas on the Square
+- This Is Me...Now: A Love Story
+- X-Men: Days of Future Past
+- Good People
+- Samba
+- Burnt
+- The Call of the Wild
+- Jurassic World Dominion
+- The Killer
+- Experimenter
+- Nobody's Watching
+- Just a Kiss
+- Groove
+- Fantastic Four
+- 42
+- Magic in the Moonlight
+- One More Time
+- Unicorn Store
+- 10 Things We Should Do Before We Break Up
+- Dead for a Dollar
+- Nickel Boys
+- O
+- Cheats
+- Under the Tuscan Sun
+- Dumb and Dumberer: When Harry Met Lloyd
+- The Battle of Shaker Heights
+- Evil Alien Conquerors
+- The Butterfly Effect
+- Lords of Dogtown
+- The Amateurs
+- Spivak
+- The Namesake
+- The Darjeeling Limited
+- A Mighty Heart
+- Partition
+- Slumdog Millionaire
+- New York, I Love You
+- New York
+- Hisss
+- 7 Khoon Maaf
+- The Amazing Spider-Man
+- Life of Pi
+- The Lunchbox
+- Puzzle
+- Waltzing Anna
+- The Good Heart
+- Tower Heist
+- Red Hook Summer
+- Manchester by the Sea
+- Lady Bird
+- Native Son
+- Bruised
+- Dune
+- Causeway
+- Civil War
+- Meet the Parents
+- The Invisible Circus
+- Three Days of Rain
+- Sylvia
+- Meet the Fockers
+- The Last Kiss
+- The Sisterhood of the Traveling Pants 2
+- The Lightkeepers
+- Waiting for Forever
+- What's Your Number?
+- Paul
+- The Lucky One
+- I'll See You In My Dreams
+- Tumbledown
+- What They Had
+- The Chaperone
+- The Tomorrow Man
+- Happiness for Beginners
+- Scream
+- Hellraiser: Inferno
+- Point of Origin
+- Greencard Warriors
+- Captain Corelli's Mandolin
+- Heaven
+- Texas 46
+- Revolver
+- Fade to Black
+- Shadow Man
+- The Listening
+- The Moon and the Stars
+- The Dark Knight
+- Nine
+- Goltzius and the Pelican Company
+- Rush
+- Black Butterfly
+- The Two Popes
+- Book Club: The Next Chapter
+- The Weight of Water
+- American Psycho
+- You Can Count on Me
+- The Dancer
+- Drop Back Ten
+- Session 9
+- A Beautiful Mind
+- Sweet Home Alabama
+- Wonderland
+- Hulk
+- Secondhand Lions
+- Undertow
+- Around the Bend
+- An Unfinished Life
+- Poseidon
+- Operation Homecoming: Writing the Wartime Experience
+- Death in Love
+- Daydream Nation
+- Life as We Know It
+- Tell-Tale
+- Peacock
+- Shadows and Lies
+- Red Dog
+- Big Sur
+- The Mend
+- Boychoir
+- Dear Eleanor
+- Youth in Oregon
+- The Most Hated Woman in America
+- Mark Felt: The Man Who Brought Down the White House
+- The Guardian Angel
+- Ford v Ferrari
+- She Dies Tomorrow
+- The Secret: Dare to Dream
+- The Forever Purge
+- The Black Demon
+- Alice Upside Down
+- The Kings of Summer
+- Barely Lethal
+- Hillbilly Elegy
+- The Strangers: Chapter 1
+- Trigger Warning
+- Ride or Die
+- Frost/Nixon
+- Midway
+- Assassination Games
+- Monte Carlo
+- Spy
+- The Spy Who Dumped Me
+- In America
+- Pieces of April
+- Taxi
+- Before the Devil Knows You're Dead
+- Trainwreck: My Life as an Idiot
+- The Promotion
+- Veronika Decides to Die
+- The Good Guy
+- Flypaper
+- Piranha 3DD
+- Chinese Puzzle
+- The Secret Life of Walter Mitty
+- American Hustle
+- Focus
+- Sisters
+- Army of One
+- Office Christmas Party
+- I Feel Pretty
+- The Guilty
+- Renfield
+- Unfrosted
+- The Fourth Angel
+- Callas Forever
+- And Now... Ladies and Gentlemen
+- The Time Machine
+- Broadway: The Golden Age, by the Legends Who Were There
+- The Merchant of Venice
+- Being Julia
+- Mathilde
+- Kingdom of Heaven
+- Casanova
+- Eragon
+- Inland Empire
+- Appaloosa
+- The Pink Panther 2
+- Trashed
+- Night Train to Lisbon
+- High-Rise
+- The Man Who Knew Infinity
+- Batman v Superman: Dawn of Justice
+- Race
+- Assassin's Creed
+- The Correspondence
+- Red Sparrow
+- An Actor Prepares
+- House of Gucci
+- Munich: The Edge of War
+- The Flash
+- The Cello
+- Shovel Buddies
+- The Tribes of Palos Verdes
+- A.X.L.
+- Low Tide
+- Things Heard and Seen
+- It Ends With Us
+- American Pie Presents: Band Camp
+- Funny Money
+- Bound By Flesh
+- The Grudge 3
+- Hitchcock
+- Behaving Badly
+- Chinese Coffee
+- Gracie
+- Monogamy
+- You Were Never Really Here
+- Star Wars: Episode I – The Phantom Menace
+- Unbreakable
+- Jazz
+- The Caveman's Valentine
+- The 51st State
+- Star Wars: Episode II – Attack of the Clones
+- xXx
+- Changing Lanes
+- Basic
+- S.W.A.T.
+- Parts of the Family
+- My Date with Drew
+- Twisted
+- Kill Bill: Volume 2
+- In My Country
+- Star Wars: Episode III – Revenge of the Sith
+- XXX: State of the Union
+- Coach Carter
+- The Man
+- Snakes on a Plane
+- Freedomland
+- 1408
+- Resurrecting the Champ
+- Black Snake Moan
+- Cleaner
+- Farce of the Penguins
+- Iron Man
+- Jumper
+- The Spirit
+- Lakeview Terrace
+- Soul Men
+- Inglourious Basterds
+- Mother and Child
+- Iron Man 2
+- Quantum Quest: A Cassini Space Odyssey
+- Captain America: The First Avenger
+- Thor
+- Arena
+- The Avengers
+- The Samaritan
+- Meeting Evil
+- RoboCop
+- Captain America: The Winter Soldier
+- Reasonable Doubt
+- Kite
+- Big Game
+- Avengers: Age of Ultron
+- The Hateful Eight
+- Chiraq
+- The Legend of Tarzan
+- Miss Peregrine's Home for Peculiar Children
+- I Am Not Your Negro
+- Kingsman: The Golden Circle
+- xXx Return of Xander Cage
+- The Hitman's Bodyguard
+- Captain Marvel
+- Glass
+- The Last Full Measure
+- The Banker
+- Spiral
+- Death to 2020
+- Hitman's Wife's Bodyguard
+- The Protégé
+- The Marvels
+- The Kill Room
+- The Piano Lesson
+- The Unholy Trinity
+- Hanging Up
+- Proof of Life
+- In the Cut
+- In the Land of Women
+- My Mom's New Boyfriend
+- The Deal
+- The Women
+- Serious Moonlight
+- Fan Girl
+- What Happens Later
+- Disaster Movie
+- RED 2
+- Happy End
+- Revolutionary Road
+- The Wolf of Wall Street
+- Catfight
+- The Light of the Moon
+- Bad Education
+- Blush
+- Worth
+- The Half of It
+- Founders Day
+- Non pensarci
+- Pollock
+- The Sleepy Time Gal
+- A Time for Dancing
+- Admissions
+- Winter Passing
+- Gone Baby Gone
+- Virginia
+- That's What I Am
+- The Lifeguard
+- Frontera
+- Shirin in Love
+- A Crooked Somebody
+- Antlers
+- Crocodile Dundee in Los Angeles
+- Collateral Damage
+- Rancid
+- War Horse
+- Picking Up the Pieces
+- Manic
+- Latter Days
+- Havoc
+- Shadowboxer
+- Brick
+- The Lookout
+- Miracle at St. Anna
+- The Brothers Bloom
+- Stop-Loss
+- Killshot
+- Uncertainty
+- (500) Days of Summer
+- Women in Trouble
+- Inception
+- Hesher
+- Elektra Luxx
+- Morgan M. Morgansen's Date with Destiny
+- Morgan and Destiny's Eleventeenth Date: The Zeppelin Zoo
+- 50/50
+- Looper
+- The Dark Knight Rises
+- Premium Rush
+- The Interview
+- The Night Before
+- The Walk
+- Snowden
+- Star Wars: Episode VIII – The Last Jedi
+- 7500
+- Project Power
+- Glass Onion: A Knives Out Mystery
+- Flora and Son
+- Beverly Hills Cop: Axel F
+- Killer Heat
+- Highway
+- The Mist
+- Julie & Julia
+- Dolphin Tale
+- And So It Goes
+- Jack Frost 2: Revenge of the Mutant Killer Snowman
+- Sunshine Cleaning
+- All the Money in the World
+- Enemy at the Gates
+- The Reader
+- Tangled
+- Riding in Cars with Boys
+- My Suicidal Sweetheart
+- Monster Summer
+- Rich Flu
+- Le Divorce
+- The Six Triple Eight
+- People Like Us
+- Watercolor Postcards
+- Whatever It Takes
+- Orange County
+- King Kong
+- Standing Still
+- Tenacious D in The Pick of Destiny
+- Alone with Her
+- The House Bunny
+- Untraceable
+- Barry Munday
+- High School
+- Lucky
+- Parkland
+- Super Buddies
+- Vacation
+- Elvis & Nixon
+- Jumanji: Welcome to the Jungle
+- Band Aid
+- Clash of the Titans
+- Tamara Drewe
+- Sex & Drugs & Rock & Roll
+- The Three Musketeers
+- Immortals
+- Blitz
+- Flutter
+- The Hobbit: An Unexpected Journey
+- The Raven
+- No One Lives
+- Ashes
+- The Hobbit: The Desolation of Smaug
+- Fast & Furious 6
+- The Great Train Robbery
+- The Hobbit: The Battle of the Five Armies
+- Dracula Untold
+- The Girl on the Train
+- Professor Marston & The Wonder Women
+- State Like Sleep
+- 10x10
+- Anna
+- Ma
+- Angel of Mine
+- Crisis
+- Good Grief
+- Weekend in Taipei
+- Kinsey
+- Dreamgirls
+- Leap Year
+- Rise of the Planet of the Apes
+- New Year's Eve
+- This Is 40
+- Casting By
+- Interstellar
+- Love Is Strange
+- Pitch Perfect 3
+- Pet Sematary
+- Late Night
+- Sharper
+- Conclave
+- Cabrini
+- Panic Room
+- The Three Burials of Melquiades Estrada
+- The Watch
+- Suburban Gothic
+- Overboard
+- The Last Thing He Wanted
+- Shriek If You Know What I Did Last Friday the Thirteenth
+- Animal Factory
+- We Married Margo
+- Exit Wounds
+- Ablaze
+- Children on Their Birthdays
+- Just for Kicks
+- Cradle 2 the Grave
+- Dickie Roberts: Former Child Star
+- National Lampoon's Barely Legal
+- Soul Plane
+- Happy Endings
+- The Kid & I
+- Oranges
+- Pride
+- The Year of Getting to Know Us
+- Good Dick
+- Gardens of the Night
+- Remarkable Power
+- This Is Not a Test
+- April Showers
+- The Jerk Theory
+- The Skeptic
+- Endure
+- One Day
+- Beethoven's Christmas Adventure
+- Hit and Run
+- Last Call
+- The Curse of Downers Grove
+- Dumbbells
+- Maximum Impact
+- Brokeback Mountain
+- The Notorious Bettie Page
+- Find Me Guilty
+- 16 Blocks
+- The Hoax
+- Aloft
+- Inherent Vice
+- The Visit
+- Ambition's Debt
+- Eileen
+- Role Models
+- Due Date
+- Just Go with It
+- Bucky Larson: Born to Be a Star
+- Wanderlust
+- Afternoon Delight
+- Horrible Bosses 2
+- Teacher of the Year
+- Tomorrowland
+- Freaks of Nature
+- Pitch Perfect 2
+- Welcome to Happiness
+- Keanu
+- Don't Think Twice
+- The Predator
+- Dolemite Is My Name
+- Playing with Fire
+- All the Bright Places
+- The Prom
+- The Bubble
+- Wonka
+- Lake Placid
+- Stark Raving Mad
+- Graduation
+- Pig
+- High Fidelity
+- Chicago
+- The Legend of Zorro
+- Death Defying Acts
+- No Reservations
+- Lay the Favorite
+- Playing the Field
+- Side Effects
+- Mister Lonely
+- The Nine Lives of Tomas Katz
+- Son of Rambow
+- Hannibal Rising
+- The Eagle
+- Suite française
+- Bad Times at the El Royale
+- Harriet
+- Moments Within Moments
+- Luther: The Fallen Sun
+- Drift
+- Wicked
+- Three to Tango
+- Ready to Rumble
+- Don't Say a Word
+- Zig Zag
+- Liberty Stands Still
+- Ash Wednesday
+- Hope Springs
+- Martian Child
+- The Ten
+- 2012
+- Year One
+- Letters to Juliet
+- Chinese Zodiac
+- Ginger & Rosa
+- Legends of Oz: Dorothy's Return
+- Gods Behaving Badly
+- Lucky Them
+- Chef
+- A Merry Friggin' Christmas
+- Mortdecai
+- The 9th Life of Louis Drax
+- Emperor
+- The Master Cleanse
+- The Ticket
+- Babes
+- Five Dollars a Day
+- Army of the Dead
+- Blood Father
+- The Magnificent Seven
+- Whiskey Tango Foxtrot
+- Priceless
+- Silk Road
+- Flamin' Hot
+- Happy-Go-Lucky
+- Exodus: Gods and Kings
+- The Danish Girl
+- Anchor and Hope
+- All Dirt Roads Taste of Salt
+- Spectre
+- Jack the Dog
+- Suddenly Naked
+- A Walk to Remember
+- Femme Fatale
+- Out of the Blue
+- Northfork
+- The Hebrew Hammer
+- Shadow of Fear
+- A Little Trip to Heaven
+- Deepwater
+- Enron: The Smartest Guys in the Room
+- Behind Enemy Lines II: Axis of Evil
+- Strange Culture
+- A Single Woman
+- The Lena Baker Story
+- The Harimaya Bridge
+- Di Di Hollywood
+- This Is Not a Movie
+- Stage Left
+- On a marché sur Bangkok
+- Center Stage
+- Crossroads
+- Pirates of the Caribbean: The Curse of the Black Pearl
+- Haven
+- Guess Who
+- Constellation
+- Premium
+- After Sex
+- Avatar
+- Takers
+- Burning Palms
+- Death at a Funeral
+- Machete Kills
+- Star Trek Into Darkness
+- Guardians of the Galaxy
+- Infinitely Polar Bear
+- Unity
+- Nina
+- Live by Night
+- Guardians of the Galaxy Vol. 2
+- I Kill Giants
+- Missing Link
+- Vampires vs. the Bronx
+- Avatar: The Way of Water
+- The Guardians of the Galaxy Holiday Special
+- Guardians of the Galaxy Vol. 3
+- Emilia Pérez
+- The Brothers Solomon
+- Freak Dance
+- Ass Backwards
+- C.O.G.
+- Claire's Cambodia
+- Michael Bolton's Big Sexy Valentine's Day Special
+- Always Be My Maybe
+- The Listener
+- Die Another Day
+- Mirror Wars
+- Some Like It Cold
+- Violin
+- Hunter Killer
+- Delivering Milo
+- Roger Dodger
+- The Secret Lives of Dentists
+- Saint Ralph
+- The Exorcism of Emily Rose
+- Duma
+- The Dying Gaul
+- Music and Lyrics
+- No End in Sight
+- Phoebe in Wonderland
+- One Week
+- Eye of the Hurricane
+- Before I Sleep
+- Manhattan Night
+- Joe Gould's Secret
+- The Whole Shebang
+- Sidewalks of New York
+- Maid in Manhattan
+- The Core
+- Spin
+- Shall We Dance?
+- The Devil Wears Prada
+- Lucky Number Slevin
+- Four Last Songs
+- Swing Vote
+- Kit Kittredge: An American Girl
+- The Lovely Bones
+- Easy A
+- Burlesque
+- Fight for Your Right Revisited
+- Gambit
+- Jack the Giant Slayer
+- Percy Jackson & The Olympians - The Sea of Monsters
+- The Fifth Estate
+- Some Velvet Morning
+- Muppets Most Wanted
+- A Little Chaos
+- Transformers: The Last Knight
+- The Children Act
+- Submission
+- Show Dogs
+- Night Hunter
+- The Silence
+- The Witches
+- Jolt
+- Supernova
+- The King's Man
+- Whitney Houston: I Wanna Dance with Somebody
+- 40 Days and 40 Nights
+- Stuck on You
+- Marie and Bruce
+- Game 6
+- Snow Angels
+- Shrink
+- Last Night
+- Dallas Buyers Club
+- The Discoverers
+- Consumed
+- Bright Lights: Starring Carrie Fisher and Debbie Reynolds
+- Ex-Husbands
+- Junction
+- Coureur
+- The Palace
+- All Fun and Games
+- The 27 Club
+- This Must Be the Place
+- Tesla
+- Wonder Boys
+- Abandon
+- The Savages
+- Constantine's Sword
+- Before Night Falls
+- Frida
+- Vampires: Los Muertos
+- Open Range
+- Dirty Dancing: Havana Nights
+- Criminal
+- Only God Knows
+- Elysium
+- The Bad Batch
+- If Beale Street Could Talk
+- Berlin, I Love You
+- A Rainy Day in New York
+- Wander Darkly
+- Book of Shadows: Blair Witch 2
+- Pootie Tang
+- Porn Star: The Legend of Ron Jeremy
+- End of the Century: The Story of the Ramones
+- I'm Still Here
+- Conan O'Brien Can't Stop
+- Sandy Wexler
+- Diaz – Don't Clean Up This Blood
+- Werewolf: The Beast Among Us
+- Serena
+- Muse
+- Siberia
+- Inside Man
+- Margot at the Wedding
+- Another Gay Sequel: Gays Gone Wild!
+- Quid Pro Quo
+- The Invention of Lying
+- All Good Things
+- 13
+- Compliance
+- Remedy
+- Certain Women
+- BlacKkKlansman
+- Juanita
+- Bad Eggs
+- Noise
+- Prey
+- Mighty Morphin Power Rangers: The Movie
+- Don't Be Afraid of the Dark
+- Crawlspace
+- Kath & Kimderella
+- I, Frankenstein
+- Narc
+- Paid in Full
+- I, Robot
+- Waiting...
+- Roll Bounce
+- Let's Go to Prison
+- Annapolis
+- First Sunday
+- American Son
+- Still Waiting...
+- The Family Tree
+- Pawn Shop Chronicles
+- Draft Day
+- Home Sweet Hell
+- Happy, Texas
+- Stuart Little
+- Joy Ride
+- Saving Silverman
+- Chelsea Walls
+- Shattered Glass
+- Daddy Day Care
+- National Security
+- Employee of the Month
+- Sahara
+- Rescue Dawn
+- Night Train
+- Calvin Marshall
+- Diary of a Wimpy Kid
+- Diary of a Wimpy Kid: Rodrick Rules
+- Diary of a Wimpy Kid: Dog Days
+- Knights of Badassdom
+- Captain Fantastic
+- War for the Planet of the Apes
+- Lean on Pete
+- Where'd You Go, Bernadette
+- Tall Girl
+- Cowboys
+- 8-Bit Christmas
+- Tall Girl 2
+- Your Place or Mine
+- Wildcat
+- Love Lies Bleeding
+- The Martian
+- The Man with the Iron Heart
+- Night at the Crossroads
+- Terminator: Dark Fate
+- Dolphin Tale 2
+- Colossal
+- Stratton
+- Swallow
+- Fantasy Island
+- The Hating Game
+- Finding Forrester
+- Terminal Error
+- Boynton Beach Club
+- Invincible
+- Last Holiday
+- Woman Walks Ahead
+- Alex & the List
+- Lenny the Wonder Dog
+- RoboDoc
+- Gingerclown
+- Killing Hasselhoff
+- American Beauty
+- Me, Myself & Irene
+- The Patriot
+- The Bourne Identity
+- Interstate 60
+- The Bourne Supremacy
+- Silver City
+- Jarhead
+- The Kingdom
+- Married Life
+- Breach
+- The Company Men
+- The Town
+- Remember Me
+- The Muppets
+- Demolition
+- Little Women
+- Irresistible
+- The Boys in the Band
+- The Sisterhood of Night
+- Better Watch Out
+- Flawless
+- Star Trek: Nemesis
+- High Crimes
+- Down with Love
+- Million Dollar Baby
+- Sin City
+- The Wager
+- Julia
+- The Babymakers
+- Ghost World
+- Something's Gotta Give
+- Win a Date with Tad Hamilton!
+- Finding Amanda
+- Garden Party
+- Dinner for Schmucks
+- Atlas Shrugged: Part I
+- One for the Money
+- 2 Guns
+- Hail, Caesar!
+- Her Last Will
+- Under the Silver Lake
+- Playing by Heart
+- The League of Extraordinary Gentlemen
+- Infinite Space: The Architecture of John Lautner
+- Sorted
+- Very Annie Mary
+- Deathwatch
+- The Abduction Club
+- Shooters
+- Fakers
+- Love and Other Disasters
+- Virgin Territory
+- The Edge of Love
+- Mowgli: Legend of the Jungle
+- The Report
+- Cocaine Bear
+- The Bay
+- Still Alice
+- The Broken Hearts Gallery
+- Went Up the Hill
+- How Stella Got Her Groove Back
+- Life
+- Shackles
+- Miami Vice
+- Horsemen
+- The Big Year
+- Carrie
+- Paterson
+- Growing Op
+- The Social Network
+- Ruby Sparks
+- Somewhere Slow
+- Transcendence
+- Buttwhistle
+- LBJ
+- The Darkest Minds
+- The Beach
+- Don's Plum
+- Gangs of New York
+- The Aviator
+- Blood Diamond
+- The 11th Hour
+- Body of Lies
+- Hubble
+- The Great Gatsby
+- The Revenant
+- Before the Flood
+- Once Upon a Time in Hollywood
+- Don't Look Up
+- Killers of the Flower Moon
+- Artie Lange's Beer League
+- Adam
+- Lullaby
+- Naomi and Ely's No Kiss List
+- Tallulah
+- The Man Who Cried
+- Marines
+- Mr. & Mrs. Smith
+- The Good Shepherd
+- Undisputed II: Last Man Standing
+- Undisputed III: Redemption
+- The Human Resources Manager
+- Holy Rollers
+- Bunraku
+- Johnny English Reborn
+- The Fourth State
+- Esau
+- Rubikon
+- Batman: Mystery of the Batwoman
+- Delgo
+- To Matthieu
+- Laurence Anyways
+- Downton Abbey: A New Era
+- Galaxy Quest
+- A.I. Artificial Intelligence
+- The First $20 Million Is Always the Hardest
+- Frank McKlusky, C.I.
+- Sherman's Way
+- Weather Girl
+- House of Versace
+- Lines
+- Feel the Beat
+- Partner(s)
+- The Book Thief
+- Alone in Berlin
+- Stealing Harvard
+- Bella
+- The Ramen Girl
+- Deadline
+- Rabbit Hole
+- Blue Jasmine
+- Burning Blue
+- Into the Woods
+- The Invitation
+- Beyond the Night
+- Fourplay
+- Dirty Love
+- Cop Out
+- Exquisite Corpse
+- Without Men
+- A ticket to Vegas
+- Dating Game Killer
+- Bros
+- Groom Lake
+- 21 and a Wake-Up
+- The Cabin in the Woods
+- Much Ado About Nothing
+- Sironia
+- Ordinary Angels
+- The Truth About Charlie
+- The Guru
+- The Ode
+- The Domino Effect
+- The Equalizer 2
+- The Royal Tenenbaums
+- Rushmore
+- Duplex
+- RevoLOUtion: The Transformation of Lou Benedetti
+- Another Earth
+- Hamlet A.D.D.
+- Hello, My Name Is Frank
+- Pearl Harbor
+- Stealing Time
+- Daredevil
+- 13 Going on 30
+- Elektra
+- Catch and Release
+- Ghosts of Girlfriends Past
+- Arthur
+- Butter
+- The Odd Life of Timothy Green
+- Alexander and the Terrible, Horrible, No Good, Very Bad Day
+- Danny Collins
+- Nine Lives
+- Miracles from Heaven
+- Love, Simon
+- Peppermint
+- Yes Day
+- Family Switch
+- Deadpool & Wolverine
+- Borderlands
+- Blue Valentine
+- It Comes at Night
+- Assassination Nation
+- Monster
+- Monsters and Men
+- Waves
+- Luce
+- Cyrano
+- Chevalier
+- Return to Me
+- Fighting Tommy Riley
+- Magnolia
+- The Filth and the Fury
+- State and Main
+- Grateful Dawg
+- Heartbreakers
+- Heist
+- Incident at Loch Ness
+- Last Days
+- The Prestige
+- Deceptive Practice: The Mysteries and Mentors of Ricky Jay
+- The Automatic Hate
+- Apocalypse Now Redux
+- Tibet: Cry of the Snow Lion
+- Jerusalemski Sindrom
+- Bordertown
+- The End of Poverty?
+- They Killed Sister Dorothy
+- Love Happens
+- Echelon Conspiracy
+- The Kid: Chamaco
+- The Way
+- The Double
+- Eco-Pirate: The Story of Paul Watson
+- Stella Days
+- Seeking a Friend for the End of the World
+- Salinger
+- Bhopal: A Prayer for Rain
+- Trash
+- Disengaged
+- Popstar: Never Stop Never Stopping
+- Apocalypse Now
+- Princess of the Row
+- Judas and the Black Messiah
+- Brief Reunion
+- Jason Bourne
+- Balibo
+- Healing
+- The Dressmaker
+- Escape from Pretoria
+- Deep Core
+- Timecop 2: The Berlin Decision
+- War
+- Five Thirteen
+- Bumblebee
+- Get Your Stuff
+- K-PAX
+- I Am Sam
+- Impostor
+- The United States of Leland
+- Sleepy Hollow
+- The Prophecy 3: The Ascent
+- The Opportunists
+- Illuminata
+- The Affair of the Necklace
+- Jungle Juice
+- Scotland, PA
+- Plots with a View
+- Poolhall Junkies
+- The Rundown
+- Gigli
+- Kangaroo Jack
+- Man on Fire
+- Noel
+- The Stepford Wives
+- Envy
+- Domino
+- Wedding Crashers
+- Man of the Year
+- Hairspray
+- Balls of Fury
+- The Maiden Heist
+- Dark Horse
+- Seven Psychopaths
+- Stand Up Guys
+- The Power of Few
+- Joe Dirt 2: Beautiful Loser
+- The Jungle Book
+- Eddie the Eagle
+- Wild Mountain Thyme
+- Percy
+- Dune: Part Two
+- The Grand Budapest Hotel
+- Operation Finale
+- Extraordinary Measures
+- Horrible Bosses
+- The 15:17 to Paris
+- Green Book
+- Babylon
+- Grand Theft Parsons
+- The Italian Job
+- Without a Paddle
+- Mr. Woodcock
+- We're the Millers
+- St. Vincent
+- Appropriate Behavior
+- Napoleon Dynamite
+- Marley & Me
+- Lower Learning
+- Beneath the Dark
+- How to Make Love Like an Englishman
+- Moonlight Mile
+- Undermind
+- Eternal Sunshine of the Spotless Mind
+- The Goree Girls
+- Strangers
+- Incendies
+- Coriolanus
+- Lipstikka
+- Rock the Casbah
+- Grain
+- Mary Magdalene
+- A Bluebird in My Heart
+- Rebel
+- Rabia
+- The Watcher
+- Jack Reacher
+- Safe
+- The Intruder
+- Waiting for Anya
+- Hidden Agenda
+- Timeline
+- Punisher: War Zone
+- Transformers: Revenge of the Fallen
+- Diana
+- The Vatican Tapes
+- Room
+- The Lie
+- The Operative
+- Doin' It
+- Marci X
+- An American Carol
+- Wet Hot American Summer
+- Swept Away
+- Sexual Life
+- The Sisters
+- Daltry Calhoun
+- Heights
+- The Baxter
+- Slither
+- Fred Claus
+- Definitely, Maybe
+- Lovely, Still
+- The Uninvited
+- The Next Three Days
+- Our Idiot Brother
+- The Details
+- Man on a Ledge
+- Pitch Perfect
+- What to Expect When You're Expecting
+- Movie 43
+- Every Secret Thing
+- Walk of Shame
+- Little Accidents
+- Magic Mike XXL
+- The Happytime Murders
+- The LEGO Movie 2: The Second Part
+- Charlie's Angels
+- Brightburn
+- The Beanie Bubble
+- A Mistake
+- How to Kill Your Neighbor's Dog
+- The Singing Detective
+- Virgin
+- A Home at the End of the World
+- Sorry, Haters
+- Breaking and Entering
+- Beowulf
+- Hounddog
+- The Private Lives of Pippa Lee
+- Two Mothers
+- The Congress
+- A Most Wanted Man
+- Everest
+- Wonder Woman
+- Wonder Woman 1984
+- Land
+- Devil's Peak
+- Damsel
+- Thunderpants
+- Sweet Land
+- Shooter
+- The Walker
+- The Killer Inside Me
+- The Big Ask
+- Rebel in the Rye
+- The Sight
+- Bridget Jones's Diary
+- Colour Me Kubrick
+- Cockneys vs Zombies
+- I, Anna
+- Taking Sides
+- Tristan & Isolde
+- The International
+- Sky Sharks
+- East Is East
+- The Parole Officer
+- The Mystic Masseur
+- The Zookeeper
+- Code 46
+- Mangal Pandey: The Rising
+- Rang De Basanti
+- Shoot on Sight
+- West Is West
+- Bin Bulaye Baraati
+- The Reluctant Fundamentalist
+- Singularity
+- Sold
+- The Hundred-Foot Journey
+- Viceroy's House
+- Solar Eclipse: Depth of Darkness
+- Black Book
+- Suspension of Disbelief
+- The Galapagos Affair
+- Bruce Willis: Why the Legend Never Dies
+- Take Down
+- Bel Canto
+- Sleep Easy, Hutch Rimes
+- Bandits
+- Venom
+- A Christmas Story 2
+- The Manor
+- Lovers Lane
+- Devil in the Flesh 2
+- Smother
+- The Judge
+- The Stray
+- Ticker
+- The Learning Curve
+- Bad Bizness
+- Infection
+- Cool Air
+- Road to Hell
+- Tales of an Ancient Empire
+- Debating Robert Lee
+- The Amityville Horror
+- Shopgirl
+- P2
+- For Sale by Owner
+- Ollie Klublershturf vs. the Nazis
+- Conan the Barbarian
+- Alex Cross
+- McCanick
+- Raze
+- Rage
+- Pandemic
+- Demigod
+- The Zigzag Kid
+- Inbetween Worlds
+- Beautiful
+- Ritual
+- Mission to Mars
+- Pilgrim
+- The Long Run
+- The Dust Factory
+- The Story of an African Farm
+- Local Color
+- Eastern Promises
+- The Commissioner
+- Attack on Leningrad
+- Knight of Cups
+- Land of Plenty
+- The Nativity Story
+- The Kite Runner
+- The Last Airbender
+- Iron Man 3
+- Stretch
+- Papa
+- War Dogs
+- Ghosts of War
+- The Musketeer
+- The Pianist
+- Venussian Tabutasco
+- Remembrance
+- Nürnberg
+- The Man from U.N.C.L.E.
+- Clive Davis: The Soundtrack of Our Lives
+- Rumor Has It…
+- Sex and Breakfast
+- Made of Honor
+- MK Ultra
+- Nora
+- Eye of the Beholder
+- Moulin Rouge!
+- Big Fish
+- Young Adam
+- Faster
+- The Island
+- Stay
+- Stormbreaker
+- Miss Potter
+- Scenes of a Sexual Nature
+- Cassandra's Dream
+- Deception
+- Incendiary
+- Amelia
+- I Love You Phillip Morris
+- The Ghost Writer
+- Beginners
+- Nanny McPhee and the Big Bang
+- Haywire
+- Salmon Fishing in the Yemen
+- Perfect Sense
+- Fastest
+- The Impossible
+- Son of a Gun
+- A Million Ways to Die in the West
+- Jane Got a Gun
+- Last Days in the Desert
+- Miles Ahead
+- Humpback Whales
+- American Pastoral
+- Our Kind of Traitor
+- T2 Trainspotting
+- Christopher Robin
+- Zoe
+- Doctor Sleep
+- Birds of Prey and the Fantabulous Emancipation of One Harley Quinn
+- Raymond & Ray
+- The Talented Mr. Ripley
+- Almost Famous
+- The Party's Over
+- 25th Hour
+- Punch-Drunk Love
+- Red Dragon
+- Owning Mahowny
+- Cold Mountain
+- Along Came Polly
+- Strangers with Candy
+- Pirate Radio
+- Jack Goes Boating
+- God's Pocket
+- Keane
+- Looking for Comedy in the Muslim World
+- Dan in Real Life
+- Changeling
+- Green Zone
+- Win Win
+- Escape Plan
+- Birdman
+- Louder Than Bombs
+- Goosebumps
+- Don Verdean
+- Central Intelligence
+- Beautiful Boy
+- Lost Girls
+- Wolfs
+- Queen of the Desert
+- The Messenger: The Story of Joan of Arc
+- Shadow of the Vampire
+- Hotel
+- I'm Going Home
+- The Dancer Upstairs
+- Ripley's Game
+- Johnny English
+- A Talking Picture
+- The Libertine
+- The Hitchhiker's Guide to the Galaxy
+- Klimt
+- Art School Confidential
+- Disgrace
+- Afterwards
+- Mutant Chronicles
+- Secretariat
+- RED
+- Transformers: Dark of the Moon
+- Warm Bodies
+- Siberian Education
+- Cesar Chavez
+- Casanova Variations
+- Dominion
+- Zoolander 2
+- Deepwater Horizon
+- Unlocked
+- Bullet Head
+- Mile 22
+- Extremely Wicked, Shockingly Evil and Vile
+- Velvet Buzzsaw
+- Ava
+- Arkansas
+- The Survivalist
+- The Music Critic
+- Savage Salvation
+- Shattered
+- Mindcage
+- Fool's Paradise
+- Timeless: Live in Concert
+- A Guy Thing
+- Cursed
+- The Alibi
+- The Hunting Party
+- Last Chance Harvey
+- Q13522746
+- Angel Camouflaged
+- A Fonder Heart
+- Blackout
+- The 33
+- The Steps
+- I'll Be Home for Christmas
+- Royal Hearts
+- Dancer in the Dark
+- Timecode
+- Passion of Mind
+- Aberdeen
+- Harlan County War
+- Signs and Wonders
+- Kiss Kiss (Bang Bang)
+- City of Ghosts
+- Dogville
+- King Arthur
+- Exorcist: The Beginning
+- Beowulf & Grendel
+- Dominion: Prequel to the Exorcist
+- Guilty Hearts
+- Pirates of the Caribbean: Dead Man's Chest
+- Goya's Ghosts
+- Wrath of Gods
+- Pirates of the Caribbean: At World's End
+- WΔZ
+- Boogie Woogie
+- Frankie and Alice
+- Melancholia
+- Thor: The Dark World
+- Romeo and Juliet
+- Nymphomaniac
+- The Railway Man
+- The Physician
+- Nymphomaniac: Volume I
+- Nymphomaniac: Volume II
+- In Order of Disappearance
+- Hector and the Search for Happiness
+- Cinderella
+- Borg McEnroe
+- The Man Who Killed Don Quixote
+- Mamma Mia! Here We Go Again
+- I'll Find you
+- Last Words
+- Thor: Love and Thunder
+- Sweet and Lowdown
+- Personal Effects
+- Triple Dog
+- 12 Rounds 2: Reloaded
+- Backstabbing for Beginners
+- A Dog's Way Home
+- The Killing Yard
+- Diminished Capacity
+- Flash of Genius
+- The Longest Ride
+- Marriage Story
+- High Noon
+- Texas Rangers
+- Changing Hearts
+- Tears of the Sun
+- Bonneville
+- Dr. Jekyll and Mr. Hyde
+- Whiteout
+- Ted
+- Field of Lost Shoes
+- East of the Mountains
+- Seven and a Match
+- Two Days
+- Torque
+- The Matador
+- Monster-in-Law
+- Who Loves the Sun
+- Knocked Up
+- August
+- Passenger Side
+- Piranha 3D
+- Operation: Endgame
+- Friends with Kids
+- Bachelorette
+- A.C.O.D.
+- They Came Together
+- Hot Tub Time Machine 2
+- Black Mass
+- Sleeping with Other People
+- Krampus
+- My Blind Brother
+- Fun Mom Dinner
+- Between Two Ferns: The Movie
+- Have a Good Trip: Adventures in Psychedelics
+- Madame Web
+- Munich
+- Fugitive Pieces
+- Adam Resurrected
+- Halo 4: Forward Unto Dawn
+- Man of Steel
+- The Last Knights
+- Ben-Hur
+- Milada
+- My Summer of Love
+- The Jane Austen Book Club
+- Wind Chill
+- The Young Victoria
+- Gulliver's Travels
+- Wild Target
+- The Adjustment Bureau
+- Your Sister's Sister
+- The Five-Year Engagement
+- Arthur Newman
+- Edge of Tomorrow
+- Sicario
+- The Huntsman: Winter's War
+- A Quiet Place
+- A Quiet Place: Part II
+- Jungle Cruise
+- Pain Hustlers
+- The Fall Guy
+- Intimacy
+- The Other Boleyn Girl
+- Anonymous
+- Days and Nights
+- The Gunman
+- The BFG
+- Dunkirk
+- Ready Player One
+- Waiting for the Barbarians
+- The Phantom of the Open
+- Bones and All
+- The Outfit
+- My Brother Tom
+- Enduring Love
+- Layer Cake
+- Stoned
+- Perfume: The Story of a Murderer
+- I'm Not There
+- Bright Star
+- Skyfall
+- The Zero Theorem
+- Lilting
+- Paddington
+- In the Heart of the Sea
+- The Lobster
+- Suffragette
+- Paddington 2
+- The Personal History of David Copperfield
+- Little Joe
+- Women Talking
+- Passages
+- Bad Behaviour
+- Paddington in Peru
+- Committed
+- The Office Party
+- Jay and Silent Bob Strike Back
+- Oh, What a Lovely Tea Party
+- Al Franken: God Spoke
+- Wordplay
+- The Beaver
+- Tickling Giants
+- Going to Pieces: The Rise and Fall of the Slasher Film
+- Chocolat
+- My Life Without Me
+- Identity
+- Luther
+- Coffee and Cigarettes
+- As You Like It
+- Silk
+- The Little Traitor
+- Nothing like the Holidays
+- An Education
+- The Lodger
+- Prince of Persia: The Sands of Time
+- The Sorcerer's Apprentice
+- Abduction
+- The Truth About Emanuel
+- Swelter
+- The Prophet
+- We'll Never Have Paris
+- A Family Man
+- Little Men
+- Donald Trump's The Art of the Deal: The Movie
+- Paint It Black
+- Don't Let Go
+- Promising Young Woman
+- The Instigators
+- When Do We Eat?
+- The Killing Floor
+- The Devil's Candy
+- Lemon
+- Thirteen Days
+- Sugar
+- Togo
+- Spenser Confidential
+- Space Cowboys
+- A/k/a Tommy Chong
+- Underdog
+- Love the Beast
+- Exit Through the Gift Shop
+- Delivery Man
+- Ted 2
+- Amy
+- The One
+- Wilderness Survival for Girls
+- American Gun
+- Pray for Rain
+- Intersect
+- The Card Player
+- Imperium: Saint Peter
+- Berberian Sound Studio
+- Veneciafrenia
+- Dead Tone
+- After the Wedding
+- The Duke of Burgundy
+- Limbo
+- Club Zero
+- Pixels
+- Bad Moms
+- Zombie Chronicles
+- Hell's Highway
+- Terror Toons
+- Tomb of the Werewolf
+- Kinky Pleasures
+- Bikini Avengers
+- Pu-239
+- The Whistleblower
+- Child 44
+- Trade
+- Chernobyl Diaries
+- The Yards
+- Love in the Time of Money
+- Carlito's Way: Rise to Power
+- How Do You Know
+- The Family
+- Cold Pursuit
+- The King of Staten Island
+- Boogie
+- Armageddon Time
+- Reptile
+- Fresh Kills
+- It Runs in the Family
+- She Hate Me
+- Midnight's Children
+- Admission
+- It Snows in Benidorm
+- Evil Eye
+- After Yang
+- The Green Knight
+- Milwaukee, Minnesota
+- Palindromes
+- Dark Water
+- The Brass Teapot
+- This Is Where I Leave You
+- The Butterfly Room
+- Flight World War II
+- Far from China
+- Flame & Citron
+- Byzantium
+- 3096 Days
+- Adieu Paris
+- Despite the Falling Snow
+- Kill Command
+- Happy Tears
+- Blood Night: The Legend of Mary Hatchet
+- Twelve
+- Damsels in Distress
+- Choose
+- Surviving Family
+- Revenge of the Green Dragons
+- I Smile Back
+- The Great Gilly Hopkins
+- Birth of the Dragon
+- Ingrid Goes West
+- The Oath
+- Aladdin
+- Spy Kids: Armageddon
+- Coup!
+- Road House
+- The Book of Daniel
+- The Woman in Gold
+- Save Virgil
+- Midgets vs. Mascots
+- The Lost Skeleton of Cadavra
+- The Pursuit of Happyness
+- Dark and Stormy Night
+- Taking Chances
+- I Am Number Four
+- Annabelle
+- Annabelle: Creation
+- Sweet Girl
+- Flags of Our Fathers
+- The Situation
+- Reservation Road
+- Return
+- In Our Nature
+- Ant-Man
+- Captain America: Civil War
+- Churchill
+- Confess, Fletch
+- Our Italian Husband
+- The Keys to the House
+- The Chronicles of Narnia: Prince Caspian
+- World War Z
+- Suburra
+- The Confessions
+- The Catcher Was a Spy
+- Promises
+- Maria
+- Better Than Sex
+- Dust
+- The Bank
+- Russian Doll
+- Pure
+- The Crocodile Hunter: Collision Course
+- Van Helsing
+- The Proposition
+- Three Dollars
+- 300
+- Australia
+- The Children of Huang Shi
+- Oranges and Sunshine
+- 300: Rise of an Empire
+- Paper Planes
+- Lion
+- Pirates of the Caribbean: Dead Men Tell no Tales
+- In Like Flynn
+- Dirt Music
+- Like Mike
+- When Zachary Beaver Came to Town
+- Observe and Report
+- Other People
+- American Made
+- The Discovery
+- Vice
+- I'm Thinking of Ending Things
+- The Power of the Dog
+- Windfall
+- Kinds of Kindness
+- The Life Aquatic with Steve Zissou
+- Alvin and the Chipmunks
+- How to Be a Serial Killer
+- Alvin and the Chipmunks: Chipwrecked
+- Excision
+- The Beauty Inside
+- Life After Beth
+- Alvin and the Chipmunks: The Road Chip
+- Band of Robbers
+- Newness
+- 68 Kill
+- Endings, Beginnings
+- Beyond the City Limits
+- In Enemy Hands
+- Fun with Dick and Jane
+- The Devil's Rejects
+- Live Free or Die Hard
+- Transformers
+- G-Force
+- Grace Unplugged
+- Jessabelle
+- McFarland, USA
+- This Is Your Death
+- The Stoning of Soraya M.
+- 2:37
+- September
+- Newcastle
+- The Loved Ones
+- The Twilight Saga: Eclipse
+- Road Kill
+- A Few Best Men
+- Bait 3D
+- Plush
+- Fury
+- Frankenstein
+- Mr. Church
+- Love & Friendship
+- Spin Out
+- The Fighting Temptations
+- Waitress
+- Dr. Seuss' How the Grinch Stole Christmas
+- Men in Black II
+- The Haunted Mansion
+- Soccer Dog: European Cup
+- National Lampoon's Dorm Daze 2
+- Sydney White
+- Hotel for Dogs
+- The Pretty One
+- Teenage Mutant Ninja Turtles
+- Teenage Mutant Ninja Turtles: Out of the Shadows
+- Malibu Rescue - The Movie
+- Malibu Rescue: The Next Wave
+- Color of the Cross
+- Say It in Russian
+- Across the Line: The Exodus of Charlie Wright
+- Jimmy P: Psychotherapy of a Plains Indian
+- Supervized
+- Legacy
+- The Mummy Returns
+- Mission: Impossible 2
+- The Touch
+- The One and Only
+- Fragile
+- Like Minds
+- Matching Jack
+- Sanctum
+- The Turning
+- Hacksaw Ridge
+- Breath
+- Danger Close: The Battle of Long Tan
+- H Is for Happiness
+- Go Karts
+- Children of Men
+- The Stone Merchant
+- Centurion
+- Ali G, Aiii
+- The Jolly Boys' Last Stand
+- Bling Bling
+- Ali G Indahouse
+- Borat
+- Sweeney Todd: The Demon Barber of Fleet Street
+- Brüno
+- Hugo
+- Les Misérables
+- The Dictator
+- Anchorman 2: The Legend Continues
+- Alice Through the Looking Glass
+- American Pie 2
+- National Lampoon's Van Wilder
+- The Rules of Attraction
+- Cougar Club
+- 17 Again
+- As I Lay Dying
+- Neighbors
+- Agent Red
+- Nurse Betty
+- I Know Who Killed Me
+- Yes Man
+- Your Lucky Day
+- My Uncle Rafael
+- The Intruders
+- Yoga Hosers
+- The Dead Don't Die
+- The Bikeriders
+- Autumn Blood
+- Must Love Death
+- Vijay and I
+- The Guide
+- Phoenix
+- A Cure for Wellness
+- Anger Management
+- Hotel California
+- Stranded
+- Romulus, My Father
+- The Tender Hook
+- The Road
+- Let Me In
+- Dead Europe
+- A Birder's Guide to Everything
+- Young Ones
+- Dawn of the Planet of the Apes
+- All the Wilderness
+- Slow West
+- X-Men: Apocalypse
+- Deadpool 2
+- Dark Phoenix
+- 2067
+- Cruel Intentions 2
+- Psycho Beach Party
+- Pumpkin
+- The Slaughter Rule
+- The Last Run
+- Junebug
+- The Wedding Date
+- Stephen Tobolowsky's Birthday Party
+- Enchanted
+- Miss Pettigrew Lives for a Day
+- Moonlight Serenade
+- The Fighter
+- Love & Distrust
+- On the Road
+- Her
+- Big Eyes
+- Nocturnal Animals
+- The Woman in the Window
+- Dear Evan Hansen
+- Disenchanted
+- The Real American - Joe McCarthy
+- Bodies Bodies Bodies
+- Dirty Angels
+- The Apprentice
+- Dead End
+- Love & Sex
+- A Crack in the Floor
+- Rat Race
+- The Missing
+- Eulogy
+- The Alamo
+- Toolbox Murders
+- Cinderella Man
+- Sasquatch Mountain
+- Georgia Rule
+- Walk Hard: The Dewey Cox Story
+- Grizzly Park
+- Bloodworth
+- The Genesis Code
+- Rosewood Lane
+- The Dilemma
+- Spooky Buddies
+- Night Club
+- Let Go
+- Redemption: For Robbing the Dead
+- Max Rose
+- Knife Fight
+- Sunrise
+- Around the World in 80 Days
+- Babel
+- Burke & Hare
+- An American Rhapsody
+- Eight Legged Freaks
+- Lost in Translation
+- Girl with a Pearl Earring
+- The Perfect Score
+- A Love Song for Bobby Long
+- In Good Company
+- Match Point
+- Scoop
+- The Nanny Diaries
+- Vicky Cristina Barcelona
+- He's Just Not That Into You
+- We Bought a Zoo
+- Woody Allen: A Documentary
+- Under the Skin
+- Lucy
+- Ghost in the Shell
+- Rough Night
+- Jojo Rabbit
+- Black Widow
+- Fly Me to the Moon
+- Analyze That
+- The Hunted
+- The Human Stain
+- Gifted
+- Bent
+- Ad Astra
+- The November Man
+- The Best of Me
+- Point Break
+- Lucky Day
+- Holidate
+- Violet
+- Interceptor
+- One True Loves
+- Maybe I Do
+- Hatchet
+- Moving McAllister
+- Mickey Matson and the Copperhead Conspiracy
+- Man to Man
+- The Duchess
+- The Bank Job
+- Devil's Playground
+- The Face of an Angel
+- Victor Frankenstein
+- Hampstead
+- The Cursed
+- Magpie
+- Dummy
+- The Village
+- Hollywoodland
+- Manolete
+- Splice
+- Giallo
+- Predators
+- The Experiment
+- Midnight in Paris
+- Wrecked
+- Inappropriate Comedy
+- American Heist
+- Septembers of Shiraz
+- Backtrack
+- The Bombing
+- Clean
+- See How They Run
+- Ghosted
+- Manodrome
+- High Heat
+- Lost Things
+- Camp Hope
+- Sound of My Voice
+- Whiskey Bay
+- DogMan
+- Mission: Impossible – Ghost Protocol
+- 4 Days in May
+- Buddha's Little Finger
+- The Aftermath
+- 28 Weeks Later
+- The Best Offer
+- Triangle of Sadness
+- One of the Hollywood Ten
+- Auggie Rose
+- Cats & Dogs
+- Festival in Cannes
+- Igby Goes Down
+- Dallas 362
+- Spinning Boris
+- Abby Singer
+- Fay Grim
+- Mini's First Time
+- Pittsburgh
+- Morning Glory
+- The Switch
+- Tim and Eric's Billion Dollar Movie
+- Le Week-End
+- Independence Day: Resurgence
+- Thor: Ragnarok
+- Tour de Pharmacy
+- Jurassic World: Fallen Kingdom
+- Hotel Artemis
+- Equilibrium
+- Æon Flux
+- Grimm Love
+- Coco Chanel & Igor Stravinsky
+- Resistance
+- Lost Place
+- Northmen: A Viking Saga
+- The Transporter Refueled
+- Baumschlager
+- Bruce Almighty
+- Nobody Walks
+- U-571
+- Blade II
+- Resident Evil: Apocalypse
+- Head in the Clouds
+- Immortal
+- Superbabies: Baby Geniuses 2
+- The Celestine Prophecy
+- Next
+- Eichmann
+- Wanted
+- Valkyrie
+- Transsiberian
+- King Conqueror
+- Separation City
+- Hostel: Part III
+- Resident Evil: Retribution
+- Dracula 3D
+- Open Grave
+- Plastic
+- United Passions
+- Hitman: Agent 47
+- Jungle
+- American Traitor: The Trial of Axis Sally
+- Indiana Jones and the Dial of Destiny
+- Gran Turismo
+- Upgraded
+- American Star
+- Tomcats
+- Venomous
+- Wristcutters: A Love Story
+- Shanghai Calling
+- Keeping the Faith
+- The Score
+- After the Sunset
+- Down in the Valley
+- The Illusionist
+- The Painted Veil
+- The Incredible Hulk
+- Pride and Glory
+- Leaves of Grass
+- Stone
+- Moonrise Kingdom
+- Collateral Beauty
+- A Complete Unknown
+- Gods and Generals
+- Nope
+- Invitation to a Murder
+- Tuck Everlasting
+- Hide and Seek
+- First Born
+- Don McKay
+- Janie Jones
+- Waking Madison
+- House at the End of the Street
+- Chasing Mavericks
+- Death Wish
+- The Anniversary Party
+- 21 Grams
+- Garden State
+- Derailed
+- Once Upon a Mattress
+- Half Nelson
+- Awake
+- Michael Clayton
+- Rocket Science
+- The Babysitters
+- Baby Mama
+- Quarantine
+- Pretty Bird
+- An Englishman in New York
+- Brief Interviews with Hideous Men
+- Edge of Darkness
+- The Town That Dreaded Sundown
+- The Pyramid
+- Novitiate
+- Allure
+- Private Life
+- The Parting Glass
+- Bottom Of The 9th
+- Bride of the Wind
+- Thank You for Bombing
+- Jupiter's Moon
+- The Courier
+- Edges of the Lord
+- Pavilion of Women
+- Once Upon a Time in Mexico
+- The Reckoning
+- The Clearing
+- Control
+- Ripley Under Ground
+- Manderlay
+- Paris, je t'aime
+- Mr. Bean's Holiday
+- Go Go Tales
+- To Each His Own Cinema
+- The Dust of Time
+- Antichrist
+- Daybreakers
+- The Boondock Saints II: All Saints Day
+- Farewell
+- طارق كهربااا
+- A Woman
+- 4:44 Last Day on Earth
+- The Hunter
+- Tomorrow You're Gone
+- The Fault in Our Stars
+- John Wick
+- Pasolini
+- The Great Wall
+- Dog Eat Dog
+- Death Note
+- What Happened to Monday
+- The Florida Project
+- Murder on the Orient Express
+- Aquaman
+- At Eternity's Gate
+- Vox Lux
+- The Lighthouse
+- Tommaso
+- Sportin' Life
+- The Card Counter
+- The Northman
+- Poor Things
+- Gonzo Girl
+- Pet Shop Days
+- Beetlejuice Beetlejuice
+- Nosferatu
+- Vlad
+- Pride & Prejudice: A Latter-Day Comedy
+- The Prince & Me 2: The Royal Wedding
+- The Prince & Me: A Royal Honeymoon
+- The Prince and Me 4: The Elephant Adventure
+- American Sniper
+- Roman J. Israel, Esq.
+- Us
+- Snatch
+- The Last Minute
+- The I Inside
+- Satan's Little Helper
+- This Is England
+- Inkheart
+- Filth and Wisdom
+- The Crew
+- The Damned United
+- Doghouse
+- Awaydays
+- London Boulevard
+- Tinker Tailor Soldier Spy
+- Pirates of the Caribbean: On Stranger Tides
+- Season of the Witch
+- Texas Killing Fields
+- Blood
+- Best Laid Plans
+- Hyena
+- Get Santa
+- Film Stars Don't Die in Liverpool
+- Rocketman
+- Venom: Let There Be Carnage
+- Boiling Point
+- Matilda
+- Young Woman and the Sea
+- Venom: The Last Dance
+- Flight of the Living Dead
+- Dark Matter
+- Hachi: A Dog's Tale
+- Paul Blart: Mall Cop
+- Three Veils
+- A Haunting at Silver Falls
+- Chasing Eagle Rock
+- The Tourist
+- Sasha
+- Deuces Wild
+- Factotum
+- Herbie: Fully Loaded
+- You, Me and Dupree
+- Once in a Lifetime: The Extraordinary Story of the New York Cosmos
+- ...So Goes the Nation
+- Joe Strummer: The Future Is Unwritten
+- Armored
+- Girl Most Likely
+- The Art of the Steal
+- Sunlight Jr.
+- The House That Jack Built
+- Running for Grace
+- Head Full of Honey
+- Proxima
+- Nimic
+- Capone
+- American Dreamer
+- Mesrine
+- Marley & Me: The Puppy Years
+- I'll Sleep When I'm Dead
+- Spivs
+- The Mighty Celt
+- Toast
+- Man Up
+- Café Society
+- 100 Streets
+- The Mercy
+- The Dig
+- Possible Worlds
+- Teknolust
+- The Statement
+- The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+- Constantine
+- Thumbsucker
+- Stephanie Daley
+- The Man from London
+- The Limits of Control
+- The Chronicles of Narnia: The Voyage of the Dawn Treader
+- We Need to Talk About Kevin
+- Cinema Is Everywhere
+- Snowpiercer
+- A Bigger Splash
+- Trainwreck
+- Dreams Rewired
+- Doctor Strange
+- Letters from Baghdad
+- Okja
+- Suspiria
+- Women Make Film
+- Uncut Gems
+- The Souvenir
+- The Souvenir Part II
+- Memoria
+- Three Thousand Years of Longing
+- The Eternal Daughter
+- Problemista
+- The End
+- The Room Next Door
+- Harry Potter and the Philosopher's Stone
+- Harry Potter and the Prisoner of Azkaban
+- Harry Potter and the Goblet of Fire
+- Harry Potter and the Order of the Phoenix
+- Harry Potter and the Half-Blood Prince
+- Harry Potter and the Deathly Hallows – Part 1
+- Harry Potter and the Deathly Hallows – Part 2
+- My Week with Marilyn
+- The Perks of Being a Wallflower
+- This Is the End
+- The Bling Ring
+- Noah
+- Regression
+- Colonia
+- Friendly Fire
+- Suburban Girl
+- Protecting the King
+- Richard III
+- Silver Case
+- Wild Oats
+- Below the Surface
+- Runnin' from My Roots
+- The Hollywood Sign
+- Certifiably Jonathan
+- Sherlock Holmes
+- Broken
+- Powder Blue
+- Words and Pictures
+- American Assassin
+- Victoria
+- A Hidden Life
+- Melinda and Melinda
+- Hammy's Boomerang Adventure
+- Crazy, Stupid, Love.
+- The Way, Way Back
+- Foxcatcher
+- Freeheld
+- Vertical Limit
+- Frailty
+- Spy Kids 2: The Island of Lost Dreams
+- Spy Kids 3-D: Game Over
+- Ghosts of the Abyss
+- Club Dread
+- Thunderbirds
+- The Good Life
+- The Colony
+- Mean Dreams
+- The Legend of Bagger Vance
+- Hollywood Ending
+- Looking for Kitty
+- The Loss of a Teardrop Diamond
+- Get the Gringo
+- Cymbeline
+- A Most Violent Year
+- Sleepwalk with Me
+- Mike Birbiglia: My Girlfriend's Boyfriend
+- Annie
+- Adult Beginners
+- Hot Pursuit
+- Digging for Fire
+- Confetti
+- I Could Never Be Your Woman
+- Magicians
+- Friday Download: The Movie
+- Hearts in Atlantis
+- Final
+- About Schmidt
+- American Splendor
+- The Weather Man
+- Proof
+- Charlie Bartlett
+- The Nines
+- Real Steel
+- Disconnect
+- Louder Than Words
+- Cat Person
+- Outcast
+- Oculus
+- Not Another Happy Ending
+- 7 Days in Hell
+- In a Valley of Violence
+- The Party's Just Beginning
+- Jumanji: The Next Level
+- Gunpowder Milkshake
+- Dual
+- Late Bloomers
+- Sleeping Dogs
+- The Life of Chuck
+- Matchstick Men
+- Shallow Ground
+- Crash Landing
+- When a Stranger Calls
+- Rails & Ties
+- Locker 13
+- Gasoline Alley
+- The Cutter
+- Get Hard
+- The Vigil
+- Desert Dancer
+- Passengers
+- Hotel Mumbai
+- The Souls of Black Girls
+- Bedrooms and Hallways
+- The Old Man Who Read Love Stories
+- The Matrix Revisited
+- The Matrix Revolutions
+- The Matrix Reloaded
+- Horseplay
+- Peaches
+- V for Vendetta
+- Little Fish
+- Last Ride
+- Mystery Road
+- The Mule
+- Strangerland
+- Jasper Jones
+- Mortal Engines
+- Black '47
+- The Royal Hotel
+- River of Fundament
+- Unsane
+- Zoolander
+- Calendar Girls
+- Blade: Trinity
+- Starsky & Hutch
+- Failure to Launch
+- Sex and Death 101
+- Reno 911!: Miami
+- A Very Harold & Kumar Christmas
+- Patton Oswalt: Tragedy Plus Comedy Equals Time
+- Dude Bro Party Massacre III
+- Call Me Lucky
+- Keeping Up with the Joneses
+- The Confirmation
+- Nerdland
+- Neil Gaiman: Dream Dangerously
+- Sorry to Bother You
+- The Secret Life of Pets 2
+- Eternals
+- I Love My Dad
+- 80 for Brady
+- A Better Life
+- Sex Tape
+- Night Swim
+- A Better Way to Die
+- What's Up, Scarlet?
+- Machete Maidens Unleashed!
+- Duke
+- Joker
+- Cookers
+- American Crime
+- The Texas Chainsaw Massacre: The Beginning
+- Killer Movie
+- Death, Deceit and Destiny Aboard the Orient Express
+- Deep Freeze
+- Alien Autopsy
+- Iron Sky
+- Scream 3
+- The Hurricane
+- The Sum of All Fears
+- The Omen
+- Sea Monsters: A Prehistoric Adventure
+- Love in the Time of Cholera
+- Defiance
+- X-Men Origins: Wolverine
+- Taking Woodstock
+- Repo Men
+- Goon
+- Mental
+- The Butler
+- The Last Days on Mars
+- Fading Gigolo
+- Money for Nothing: Inside the Federal Reserve
+- A Perfect Man
+- Pawn Sacrifice
+- Creed
+- The 5th Wave
+- Goon: Last of the Enforcers
+- Golda
+- Scott Pilgrim vs. the World
+- Silent Night
+- The Void
+- Best Sellers
+- The Longshots
+- The Last Exorcism
+- Summer Song
+- Antiviral
+- Queen and Country
+- Heaven Knows What
+- Stonewall
+- War on Everyone
+- To the Night
+- The Kindness of Strangers
+- Viena and the Fantomes
+- The Outpost
+- The Forgiven
+- Nitram
+- Legally Blonde
+- Bring It On Again
+- The Shaggy Dog
+- The Haunting of Molly Hartley
+- Rosenstraße
+- Hanna
+- Slackers
+- Spun
+- I Heart Huckabees
+- Marie Antoinette
+- The Marc Pease Experience
+- A Glimpse Inside the Mind of Charles Swan III
+- Cousin Ben Troop Screening with Jason Schwartzman
+- She's Funny That Way
+- Listen Up Philip
+- 7 Chinese Brothers
+- My Entire High School Sinking Into the Sea
+- Golden Exits
+- The Polka King
+- Wine Country
+- Mainstream
+- Quiz Lady
+- Megalopolis
+- Queer
+- Between the Temples
+- Blades of Glory
+- Ping Pong Playa
+- The Slammin' Salmon
+- Fired Up!
+- Blow
+- The Fast and the Furious: Tokyo Drift
+- The Dog Problem
+- What Doesn't Kill You
+- Music of the Heart
+- The Hours
+- Imaginary Witness
+- Prime
+- A Prairie Home Companion
+- Hurricane on the Bayou
+- Lions for Lambs
+- Evening
+- Ocean Voyagers
+- Roman Polanski: Wanted and Desired
+- The Iron Lady
+- Wings of Life
+- The Giver
+- Ricki and the Flash
+- Florence Foster Jenkins
+- Let Them All Talk
+- Wiener-Dog
+- Imperium
+- In the Shadow of the Moon
+- Butcher's Crossing
+- Pride & Prejudice
+- Mrs. Palfrey at the Claremont
+- The Last Legion
+- Outlaw
+- Lullaby for Pi
+- The Kid
+- 5 Days of War
+- To Write Love on Her Arms
+- Starred Up
+- Meet Me in Montenegro
+- The Death of Stalin
+- A Simple Favor
+- Infinite
+- Separation
+- Last Looks
+- Canary Black
+- The American Society of Magical Negroes
+- What's the Worst That Could Happen?
+- Bartleby
+- Confessions of a Teenage Drama Queen
+- Raising Flagg
+- In Her Shoes
+- Motherhood
+- Meek's Cutoff
+- Nasty Baby
+- Split
+- Lovesong
+- Beach Rats
+- Max
+- Giant Little Ones
+- Cake
+- Six Underground
+- Mary
+- The Banger Sisters
+- Alfie
+- Jiminy Glick in Lalawood
+- Elizabethtown
+- In the Valley of Elah
+- Manufacturing Dissent
+- Middle of Nowhere
+- The Greatest
+- Solitary Man
+- Shorts
+- Wall Street: Money Never Sleeps
+- Jeff, Who Lives at Home
+- Robot & Frank
+- Arbitrage
+- The Big Wedding
+- Snitch
+- The Last of Robin Hood
+- The Calling
+- Tammy
+- Ping Pong Summer
+- Spark
+- Mothers and Daughters
+- A Bad Moms Christmas
+- The Death and Life of John F. Donovan
+- Viper Club
+- The Jesus Rolls
+- Blackbird
+- Blue Beetle
+- The Fabulous Four
+- The Gutter
+- Live Forever: The Rise and Fall of Brit Pop
+- Ocean's Thirteen
+- Wild Hogs
+- How to Make Love to a Woman
+- Born
+- Parasomnia
+- The Coverup
+- Montana Amazon
+- Scream 4
+- Save the Date
+- Search Party
+- How to Be Single
+- Joshy
+- The Little Hours
+- Happiest Season
+- The Rental
+- Horse Girl
+- Spin Me Round
+- Somebody I Used to Know
+- Freelance
+- Love
+- Embers
+- The Neon Demon
+- Above Suspicion
+- Please Baby Please
+- Watcher
+- God Is a Bullet
+- The Collective
+- The Girl in the Spider's Web
+- About a Boy
+- Bridget Jones: The Edge of Reason
+- Did You Hear About the Morgans?
+- Red Nose Day Actually
+- The Gentlemen
+- Operation Fortune: Ruse de guerre
+- Dungeons & Dragons: Honor Among Thieves
+- Heretic
+- Sam the Man
+- The Tic Code
+- Anything Else
+- Uptown Girls
+- Undiscovered
+- Henry's Crime
+- Rio Sex Comedy
+- LOL
+- Attack the Block
+- Junkhearts
+- Half of a Yellow Sun
+- Imperial Dreams
+- Detroit
+- Pacific Rim: Uprising
+- Star Wars: Episode IX – The Rise of Skywalker
+- Red, White and Blue
+- Naked Singularity
+- They Cloned Tyrone
+- Serenity
+- Swimmers
+- Piccadilly Jim
+- Diggers
+- Griffin and Phoenix
+- Stars in Shorts
+- Fairhaven
+- The Runner
+- Blue Jay
+- Run
+- Topsy-Turvy
+- Iris
+- Nicholas Nickleby
+- Bright Young Things
+- The Boys from County Clare
+- The Young Visiters
+- Vera Drake
+- Vanity Fair
+- And When Did You Last See Your Father?
+- Hot Fuzz
+- Perrier's Bounty
+- Another Year
+- Closed Circuit
+- Filth
+- Magik
+- Brooklyn
+- Bridget Jones's Baby
+- The Sense of an Ending
+- King of Thieves
+- Six Minutes To Midnight
+- The Duke
+- A Boy Called Christmas
+- The Unlikely Pilgrimage of Harold Fry
+- Best in Show
+- Gosford Park
+- Plan B
+- The Tuxedo
+- Trust the Man
+- License to Wed
+- Dedication
+- Howl
+- Thin Ice
+- Mascots
+- I Am the Pretty Thing That Lives in the House
+- John Dies at the End
+- Adam & Steve
+- Ten 'til Noon
+- Zodias
+- Someone Great
+- Die, Mommie, Die!
+- Chasing Liberty
+- Catch That Kid
+- Pretty Persuasion
+- Day of the Dead
+- My Sassy Girl
+- Shelter
+- The Last Black Man in San Francisco
+- The United States vs. Billie Holiday
+- AmericanEast
+- The Morgue
+- Darfur
+- Sand Castle
+- Azimuth
+- Somewhere Tonight
+- Hyde Park on Hudson
+- The Congressman
+- Born in China
+- Moro no Brasil
+- The Escapist
+- Pelé: Birth of a Legend
+- Thanks for Sharing
+- Share
+- Alia's Birth
+- Turtles All the Way Down
+- Goodrich
+- Are You Here
+- The Lost Son
+- Here on Earth
+- Cord
+- Ararat
+- Hollywood Homicide
+- The Republic of Love
+- The World's Fastest Indian
+- Racing Stripes
+- Mee-Shee: The Water Giant
+- Eight Below
+- National Treasure: Book of Secrets
+- Cyborg Soldier
+- The Summit
+- Mao's Last Dancer
+- Barney's Version
+- The Place Beyond the Pines
+- Cristiada
+- Endless Love
+- The Captive
+- Good Kill
+- Fathers and Daughters
+- Rehearsal
+- Gerald's Game
+- Kodachrome
+- Philomena
+- Geostorm
+- Dark Waters
+- All My Puny Sorrows
+- Rebel Moon — Part One: A Child of Fire
+- I.C.U.
+- About Time
+- Z for Zachariah
+- I, Tonya
+- Goodbye Christopher Robin
+- Terminal
+- Mary Queen of Scots
+- Barbie
+- Arthur and the Minimoys
+- Yogi Bear
+- The Sisterhood of the Traveling Pants
+- Bottle Shock
+- CBGB
+- I Saw the Light
+- Megan Leavey
+- Destroyer
+- Godzilla: King of the Monsters
+- Songbird
+- Sergio
+- Rosaline
+- Devour
+- Confess
+- Mr. Gibb
+- Purple Heart
+- A New Wave
+- August Rush
+- The Hills Run Red
+- Last Day of Summer
+- Being Flynn
+- That Guy Dick Miller
+- Ava's Possessions
+- The Highwaymen
+- Bill & Ted Face the Music
+- VFW
+- The Unholy
+- Chrystal
+- That Evening Sun
+- Take Shelter
+- Footloose
+- The Last Ride
+- Sick Girl
+- The Dead Don't Hurt
+- Knox Goes Away
+- Pitch Black
+- The Replacements
+- Where the Heart Is
+- Novocaine
+- Home Invaders
+- Agent Cody Banks
+- Agent Cody Banks 2: Destination London
+- The Chronicles of Riddick
+- Beef II
+- Transporter 2
+- The Oh in Ohio
+- If I Had Known I Was a Genius
+- Delta Farce
+- Superhero Movie
+- Beautiful Loser
+- Against the Dark
+- Gamer
+- Behind Enemy Lines: Colombia
+- Pastor Brown
+- Stomp the Yard: Homecoming
+- Meet Monica Velour
+- Snowflake, the White Gorilla
+- The Greening of Whitney Brown
+- Spork
+- Smiley
+- Christmas in Compton
+- Don't Pass Me By
+- Savage Dog
+- In Search of Darkness
+- Black as Night
+- The Prank
+- Boyhood
+- Barry
+- Summer Night
+- Fat Albert
+- My Sexiest Year
+- Beverly Hills Chihuahua
+- Joy Ride 2: Dead Ahead
+- College
+- The Final Destination
+- 10 Years
+- Scents and Sensibility
+- Martin & Orloff
+- Dirty Old Town
+- Let America Laugh
+- She's the Man
+- School for Scoundrels
+- Awesome; I Fuckin' Shot That!
+- Secrets of the Furious Five
+- The Legend of Secret Pass
+- It's a Disaster
+- Next Gen
+- You Hurt My Feelings
+- The Transporter
+- Bruno
+- Reindeer Games
+- Fallen Angel
+- The Big Bounce
+- This Old Cub
+- Joe Bell
+- I Still Believe
+- Lawless
+- Loving
+- The Killing of a Sacred Deer
+- Molly's Game
+- The Only Living Boy in New York
+- Wildlife
+- Skin
+- The Kitchen
+- Passing
+- White Noise
+- Sound of Freedom
+- The Burial
+- Drive-Away Dolls
+- Mouth to Mouth
+- Across the Universe
+- 21
+- Fifty Dead Men Walking
+- Crossing Over
+- Heartless
+- The Way Back
+- Upside Down
+- Electric Slide
+- Stonehearst Asylum
+- Kidnapping Freddy Heineken
+- London Fields
+- Alone Together
+- The Other Me
+- Apartment 7A
+- Before Sunset
+- Some Voices
+- Hotel Splendide
+- Lara Croft: Tomb Raider
+- Ten Minutes Older: The Cello
+- The Mother
+- Fateless
+- The Golden Compass
+- The Girl with the Dragon Tattoo
+- Cowboys & Aliens
+- One Life
+- Dream House
+- Superheroes Unite for BBC Children in Need
+- Kings
+- Knives Out
+- Savages
+- Paranormal Activity 4
+- The Grey Zone
+- Afterschool
+- The Trials of J. Robert Oppenheimer
+- The 50 Year Argument
+- Call Me by Your Name
+- Shirley
+- Just Visiting
+- Rollerball
+- Hotel Rwanda
+- Flyboys
+- The Pink Panther
+- Couples Retreat
+- Margaret
+- The Chef
+- My Summer in Provence
+- The Last Face
+- The Promise
+- Brothers of the Wind
+- Cold Blood
+- Da 5 Bloods
+- The Doorman
+- Léon: The Professional
+- My Penguin Friend
+- Simply Irresistible
+- Wendigo
+- The Safety of Objects
+- All the Real Girls
+- Miracle
+- Good Night, and Good Luck.
+- Lars and the Real Girl
+- Blind Date
+- Elegy
+- Cairo Time
+- Main Street
+- Legendary
+- Friends with Benefits
+- The Maze Runner
+- Regarding Susan Sontag
+- October Gale
+- Maze Runner: The Scorch Trials
+- The Party
+- The Bookshop
+- Maze Runner: The Death Cure
+- Jonathan
+- Monica
+- She Said
+- John Wick: Chapter 2
+- Revelation
+- Dot the i
+- Master and Commander: The Far Side of the World
+- An American Haunting
+- Age of Heroes
+- W.E.
+- In Their Skin
+- Overnight
+- After the Dark
+- Guernica
+- An Acceptable Loss
+- Stillwater
+- Ghostlight
+- Where the Money Is
+- Roving Mars
+- The Meerkats
+- Winning: The Racing Life of Paul Newman
+- Righteous Kill
+- Step Up
+- The Stepfather
+- Billy Lynn's Long Halftime Walk
+- Dark Asylum
+- Ripper
+- Heart of America
+- House of the Dead
+- Baltic Storm
+- Beerfest
+- Primeval
+- Nanking
+- La Conjura de El Escorial
+- Merlin and the War of the Dragons
+- Company of Heroes
+- Remember
+- The Last Rifleman
+- Stolen Summer
+- Cheaper by the Dozen 2
+- Loggerheads
+- Kingdom of the Planet of the Apes
+- X-Men
+- X2
+- Gothika
+- Catwoman
+- Perfect Stranger
+- Things We Lost in the Fire
+- Dark Tide
+- The Call
+- Kidnap
+- Kevin Hart: What Now?
+- John Wick: Chapter 3 – Parabellum
+- Moonfall
+- Never Let Go
+- Love, Honour and Obey
+- Sky Captain and the World of Tomorrow
+- The Holiday
+- Sleuth
+- My Blueberry Nights
+- The Imaginarium of Doctor Parnassus
+- Sherlock Holmes: A Game of Shadows
+- Anna Karenina
+- Dom Hemingway
+- Black Sea
+- Genius
+- King Arthur: Legend of the Sword
+- Fantastic Beasts: The Crimes of Grindelwald
+- The Rhythm Section
+- Fantastic Beasts: The Secrets of Dumbledore
+- Peter Pan & Wendy
+- Firebrand
+- Maybe Baby
+- Nanny McPhee
+- Stranger than Fiction
+- I Am Legend
+- The Love Punch
+- Effie
+- A Walk in the Woods
+- The Legend of Barney Thomson
+- Johnny English Strikes Again
+- Men in Black: International
+- How to Build a Girl
+- Last Christmas
+- Cruella
+- What's Love Got to Do With It?
+- Good Luck to You, Leo Grande
+- Swimming
+- Puccini for Beginners
+- Bait
+- Double Vision
+- Nearing Grace
+- A.W.O.L.
+- Shanghai
+- Drive Angry
+- Collaborator
+- Horns
+- The Virtuoso
+- Gods and Monsters
+- Emile
+- Neverwas
+- Asylum
+- Displaced
+- Stardust
+- The Wolverine
+- The Five(ish) Doctors Reboot
+- Mr. Holmes
+- McKellen: Playing the Part
+- All Is True
+- The Good Liar
+- Cats
+- Stung
+- Federal Protection
+- Grace
+- Sweet November
+- Good Boy!
+- Girls Against Boys
+- Nor'easter
+- How to Be a Man
+- Ned Rifle
+- American Outlaws
+- Ordinary Decent Criminal
+- Hart's War
+- The Recruit
+- Veronica Guerin
+- Intermission
+- Alexander
+- The New World
+- Ask the Dust
+- In Bruges
+- Kicking It
+- Ondine
+- Crazy Heart
+- Triage
+- Fright Night
+- Dead Man Down
+- Winter's Tale
+- Miss Julie
+- Solace
+- Fantastic Beasts and Where to Find Them
+- It's Not Yet Dark
+- The Beguiled
+- Dumbo
+- Thirteen Lives
+- The Banshees of Inisherin
+- The Bachelor
+- Gale Force
+- The Snow Walker
+- Blackball
+- The Longest Yard
+- The Queen
+- Becoming Jane
+- Your Mommy Kills Animals
+- Dante's Inferno
+- Tortured
+- Surrogates
+- A Lonely Place for Dying
+- Soldiers of Fortune
+- Cowgirls 'n Angels
+- Memorial Day
+- Still Mine
+- The Trials of Cate McCall
+- Marshall
+- Never Too Late
+- Wicked Blood
+- 13 Sins
+- Mississippi Grind
+- Zipper
+- Same Kind of Different as Me
+- Gangster No. 1
+- Dead Babies
+- The Suicide Club
+- A Knight's Tale
+- The Heart of Me
+- Wimbledon
+- Firewall
+- The Secret Life of Bees
+- Broken Lines
+- Creation
+- Legion
+- Priest
+- Legend
+- Solo: A Star Wars Story
+- What a Girl Wants
+- Annihilation
+- Maleficent: Mistress of Evil
+- The King Is Alive
+- Skipped Parts
+- The Quickie
+- The Machinist
+- Childstar
+- Rag Tale
+- Greenberg
+- Jake Squared
+- Hateship, Loveship
+- The Moment
+- Welcome to Me
+- Morgan
+- Amityville: The Awakening
+- White Boy Rick
+- Possessor
+- Poolman
+- Me Myself I
+- Blow Dry
+- The Hard Word
+- The Rookie
+- Ned Kelly
+- Beautiful Kate
+- Burning Man
+- Patrick
+- Mammal
+- Science Fiction Volume One: The Osiris Child
+- Don't Tell
+- The King's Daughter
+- Anyone but You
+- The Independent
+- Sarah Silverman: Jesus Is Magic
+- Relative Strangers
+- Danny Roane: First Time Director
+- Take Me Home Tonight
+- The Giant Mechanical Man
+- Boulevard
+- I Am Chris Farley
+- Girlfriend's Day
+- Long Shot
+- Nobody
+- Life Upside Down
+- Misery Harbour
+- Lost and Delirious
+- Snow Dogs
+- Duct Tape Forever
+- Skins
+- Phil the Alien
+- Transamerica
+- Breakfast with Scot
+- Just Buried
+- The Twilight Saga: New Moon
+- Casino Jack
+- Atlantic Rim
+- Te Ata
+- The Shack
+- Wind River
+- Astronaut
+- The Wolf and the Lion
+- All Russians Love Birch Trees
+- The House of Mirth
+- Looking for Alibrandi
+- Company Man
+- Lantana
+- Dead Heat
+- The Salton Sea
+- I'm with Lucy
+- Winter Solstice
+- Big Stone Gap
+- Holding the Man
+- A Month of Sundays
+- The Assignment
+- Big Fat Liar
+- Paycheck
+- Confidence
+- Sideways
+- The Hawk Is Dying
+- Shoot 'Em Up
+- The Last Station
+- The Haunted World of El Superbeasto
+- The Hangover Part II
+- Ironclad
+- Cosmopolis
+- All Is Bright
+- Madame Bovary
+- San Andreas
+- I Think We're Alone Now
+- The Holdovers
+- Indignation
+- Deep Water
+- Sand
+- Ginostra
+- Sonny
+- The Wendell Baker Story
+- Mr. Warmth: The Don Rickles Project
+- The Open Road
+- The Last Stand
+- 9 Full Moons
+- Trolls World
+- Dope
+- Lowriders
+- Table 19
+- Take the 10
+- The Sound of Silence
+- Scream VI
+- The Wonder
+- Lara Croft: Tomb Raider – The Cradle of Life
+- The Phantom of the Opera
+- Mickybo and Me
+- Amazing Grace
+- The Tiger's Tail
+- Hallam Foe
+- Race to Witch Mountain
+- Life During Wartime
+- The Eclipse
+- The Debt
+- The Rite
+- Ghost Rider: Spirit of Vengeance
+- The Woman in Black
+- The Sea
+- The Driftless Area
+- Silence
+- Bleed for This
+- First Man
+- Elizabeth Harvest
+- Belfast
+- Cottontail
+- In the Land of Saints and Sinners
+- The Family Plan
+- Things You Can Tell Just by Looking at Her
+- Assassination Tango
+- Shades of Ray
+- Miss Nobody
+- Machine Gun Preacher
+- The Age of Adaline
+- The Ballad of Lefty Brown
+- The Art of Racing in the Rain
+- Kissing Jessica Stein
+- Hungry Hearts
+- All Relative
+- Irrational Man
+- Asleep in My Palm
+- Battlecreek
+- Feed
+- Dirty Pretty Things
+- L'Auberge espagnole
+- Russian Dolls
+- Solstice
+- Hall Pass
+- Undrafted
+- Everybody Wants Some!!
+- The Domestics
+- Can You Keep a Secret?
+- Locke
+- A Walk Among the Tombstones
+- Dark River
+- How to Talk to Girls at Parties
+- All Over the Guy
+- I Love Your Work
+- Second Act
+- Our Little Secret
+- Another Happy Day
+- The Climb
+- Manna from Heaven
+- The Atticus Institute
+- Reign Over Me
+- The Smurfs
+- The Founder
+- Vengeance
+- Material Girls
+- Garfield: The Movie
+- The Cell
+- The Tailor of Panama
+- Along Came a Spider
+- How to Deal
+- Fido
+- When a Man Falls in the Forest
+- The Stone Angel
+- Trick 'r Treat
+- 2 Days in New York
+- Dream Scenario
+- Chicken Girls: The Movie
+- Descendants 3
+- The Whole Nine Yards
+- See Spot Run
+- The Scorpion King
+- George of the Jungle 2
+- George and the Dragon
+- D.E.B.S.
+- The Golden Blaze
+- One Way
+- The Last Mimzy
+- American Crude
+- Street Fighter: The Legend of Chun-Li
+- Redemption Road
+- Green Lantern
+- Cross
+- In the Hive
+- A Resurrection
+- Fear Street Part 1: 1994
+- Fear Street Part 3: 1666
+- The Pale Blue Eye
+- Kraven the Hunter
+- Gladiator II
+- Thelma
+- Allegiance
+- Forever
+- Welcome to Acapulco
+- Suspect Zero
+- Christmas with the Kranks
+- The Cat's Meow
+- The Last Seven
+- The Burrowers
+- Give 'Em Hell, Malone
+- Stir of Echoes
+- Death of a President
+- Were the World Mine
+- A Nightmare on Elm Street
+- Osuofia in London
+- Dracula Reborn
+- The Great New Wonderful
+- The Bounty Hunter
+- The Dirt
+- The Gene
+- Snack Shack
+- Baby Genius
+- Head Count
+- From Hell
+- Brothers of the Head
+- RocknRolla
+- Albert Nobbs
+- Disrupt/Dismantle
+- Sound of Hope: The Story of Possum Trot
+- Reign of Terror
+- Certified Copy
+- Mr. Fix It
+- Great World of Sound
+- The Innkeepers
+- Cheap Thrills
+- Starry Eyes
+- Henry Gamble's Birthday Party
+- Carnage Park
+- Teenage Cocktail
+- Dinner in America
+- We Need to Do Something
+- Looney Tunes: Back in Action
+- Asylum of the Damned
+- Lucky You
+- Take
+- The Custom Mary
+- Thirst Street
+- 2 Fast 2 Furious
+- Bad Santa
+- Masterminds
+- Zeroville
+- Smiley Face Killers
+- Double Take
+- Say It Isn't So
+- Driven
+- Madison
+- Bachelor Party Vegas
+- Home of the Giants
+- The Grind
+- Small Town Saturday Night
+- Atlas Shrugged Part III: Who Is John Galt?
+- Zombeavers
+- Steve Jobs: The Lost Interview
+- Bob Dylan
+- John Lennon
+- Pablo Picasso
+- Jeff Daniels
+- Michael Fassbender
+- Kate Winslet
+- John Ortiz
+- Seth Rogen
+- Perla Haney-Jardine
+- Steven Wiig
+- Emmett Miller
+- Sarah Snook
+- Katherine Waterston
+- Adam Shapiro
+- Makenzie Moss
+- Ripley Sobo
+- Secret Headquarters
+- Battlefield Earth
+- We All Fall Down
+- We Were Soldiers
+- Seven Pounds
+- Like Dandelion Dust
+- Princess Kaiulani
+- How to Change the World
+- Running with the Devil
+- Crawl
+- The Cutting Edge: The Magic of Movie Editing
+- Heckler
+- Milius
+- Behind the Scenes
+- The Hideout
+- Imago Mortis
+- Spring
+- Downsizing
+- Duck Butter
+- American Woman
+- Driveways
+- The Whale
+- The Menu
+- The Gospel
+- Blood and Bone
+- Wrestling Isn't Wrestling
+- False Positive
+- The Good House
+- 13 Moons
+- Joshua
+- Choke
+- Moon
+- Gentlemen Broncos
+- Everybody's Fine
+- The Winning Season
+- Conviction
+- The Sitter
+- A Case of You
+- Better Living Through Chemistry
+- Laggies
+- Loitering with Intent
+- Poltergeist
+- Mr. Right
+- Richard Jewell
+- The Expatriate
+- Amundsen
+- It
+- It: Chapter Two
+- Nancy Drew and the Hidden Staircase
+- Gretel and Hansel
+- The Adults
+- Big Monster on Campus
+- The Backlot Murders
+- Pauly Shore Is Dead
+- Never Sleep Again: The Elm Street Legacy
+- Any Given Sunday
+- Possession
+- Conversations with Other Women
+- The Rum Diary
+- Battle: Los Angeles
+- Olympus Has Fallen
+- Incarnate
+- London Has Fallen
+- Line of Duty
+- Wander
+- Muzzle
+- Rumble Through the Dark
+- Ambush
+- Chief of Station
+- The Bricklayer
+- Jurassic Park III
+- Parental Guidance
+- 700 Sundays
+- The Comedian
+- Standing Up, Falling Down
+- It Ain't Over
+- Chaos and Creation at Abbey Road
+- The Upsetter
+- George Harrison: Living in the Material World
+- Miss Americana
+- P.S. I Love You
+- Remember the Titans
+- Venus and Mars
+- The Woman Every Man Wants
+- Desperation Road
+- Who Is Cletis Tout?
+- Joe Somebody
+- Comedy's Dirtiest Dozen
+- The Santa Clause 2
+- Zoom
+- The Santa Clause 3: The Escape Clause
+- Walled In
+- The Six Wives of Henry Lefay
+- I Am Comic
+- Chimpanzee
+- El Camino Christmas
+- Crossroads Guitar Festival 2004
+- Before the Music Dies
+- Live at Montreux 1986
+- Crossroads Guitar Festival 2010
+- Live at the Royal Albert Hall
+- Soundbreaking
+- Echo In the Canyon
+- Ladyworld
+- Do Revenge
+- Maestro
+- Sorority Boys
+- A Plumm Summer
+- Maze
+- The Mothman Prophecies
+- The Life of David Gale
+- Mystic River
+- P.S.
+- The Squid and the Whale
+- Jindabyne
+- The Hottest State
+- The Other Man
+- The City of Your Final Destination
+- Sympathy for Delicious
+- The Roads Not Taken
+- Falling
+- The Miracle Club
+- Suncoast
+- The Lego Ninjago Movie
+- Extreme Movie
+- Angry Video Game Nerd: The Movie
+- These Amazing Shadows
+5023
+Time to crawl: 10.0923s
